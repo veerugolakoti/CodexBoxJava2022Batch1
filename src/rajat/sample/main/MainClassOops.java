@@ -1,11 +1,12 @@
 package rajat.sample.main;
 
+import rajat.sample.clonable.MarkerInterface;
 import rajat.sample.interfaces.ImplClass;
 import rajat.sample.singleton.SingleTonClass;
 import rajat.sample.immutablility.ImmutabilityClass;
 
 public class MainClassOops {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
      /*   Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a color name::");
         String str =scanner.nextLine();
@@ -181,6 +182,11 @@ public class MainClassOops {
         System.out.println("=====InterFace and Abstract class ====");
         ImplClass implClass = new ImplClass();
         implClass.getcar();
+        System.out.println("====MarkerInterFace==========");
+        MarkerInterface markerInterface = new MarkerInterface();
+        System.out.println(markerInterface.getClone());
+        markerInterface.name="Rajat";
+        System.out.println(markerInterface.name+"Lipu");
 
     }
 }
