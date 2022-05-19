@@ -1,6 +1,6 @@
 package Veeru.sample.impls;
 
-public class TaggedInterfaceExample implements Cloneable {
+public class TaggedInterfaceExample  {
 
     public String name;
 
