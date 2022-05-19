@@ -6,5 +6,6 @@ public class HelloInterface {
         sa.square();
         sa.rectangle();
         sa.circle();
+
     }
 }
