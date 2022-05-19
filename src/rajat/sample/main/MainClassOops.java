@@ -1,5 +1,6 @@
 package rajat.sample.main;
 
+import rajat.sample.interfaces.ImplClass;
 import rajat.sample.singleton.SingleTonClass;
 import rajat.sample.immutablility.ImmutabilityClass;
 
@@ -153,7 +154,7 @@ public class MainClassOops {
         ScannerClass scannerClass = new ScannerClass();
         scannerClass.getScanner();
 
-*/
+*//*
         System.out.println("=========================================");
         System.out.println("====Immutability Class Program=====");
         ImmutabilityClass immutabilityClass = new ImmutabilityClass(202253,"Rajat","7008697185",6285.00,0.9f);
@@ -175,7 +176,11 @@ public class MainClassOops {
         System.out.println(singleTonClass);
         System.out.println(singleTonClass1);
         System.out.println(singleTonClass2);
-
+*/
+        System.out.println("===========================================");
+        System.out.println("=====InterFace and Abstract class ====");
+        ImplClass implClass = new ImplClass();
+        implClass.getcar();
 
     }
 }
