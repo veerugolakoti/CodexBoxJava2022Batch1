@@ -3,18 +3,32 @@ package Veeru.sample.main;
 import Veeru.sample.abstraction.EmployeesAbstraction;
 import Veeru.sample.employee.CodexBoxEmployee;
 import Veeru.sample.employee.GoogleEmployee;
+import Veeru.sample.impls.TaggedInterfaceExample;
 
 
 public class HelloWorldApplication {
-
+    protected TaggedInterfaceExample taggedInterfaceExample;
     public static void main(String[] args)  {
-        EmployeesAbstraction abstraction = new CodexBoxEmployee();
-        System.out.println(abstraction.qualification());
+        TaggedInterfaceExample example1 = new TaggedInterfaceExample();
+        example1.name = "Vidya";
+        System.out.println(example1.name + " Actual  data");
 
-        abstraction = new GoogleEmployee();
-        System.out.println(abstraction.qualification());
+
+        TaggedInterfaceExample  example2 = null;
+        try {
+            example2 = (TaggedInterfaceExample) example1.getTaggedInterfaceExample();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
+        }
+        example2.name = "Veeru";
+        System.out.println(example1.name + " Actual  data");
+        System.out.println(example2.name + " Cloned Data");
+
+
 
     }
+
+
 
 
 }
