@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="Initial Commit for java 2022 batch1 employees">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodexBoxJava2022Batch1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/abstraction/EmployeesAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/employee/CodexBoxEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/employee/GoogleEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/immutability/ImmutabilityExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/inheritance/AppleMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/inheritance/Canon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/inheritance/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/inheritance/SamsungMobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/inheritance/Shine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/interfaces/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/main/HelloWorldApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/singleton/SingletonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/student/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Veeru/sample/wrapperclass/WrapperClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Inheritance/Ipl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Inheritance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Inheritance/MumbaiIndians.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Inheritance/RoyalChallegersBanglore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sangamesh/Assesment2/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +31,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Training/CodexBoxJava2022Batch1"
+    "last_opened_file_path": "D:/CodexBoxJava2022Batch1/src/sangamesh/Assesment2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodexBoxJava2022Batch1\src\sangamesh\Assesment2" />
+      <recent name="D:\CodexBoxJava2022Batch1\src\sangamesh" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
