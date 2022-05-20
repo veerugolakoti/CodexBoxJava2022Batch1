@@ -1,4 +1,4 @@
-package interfaces;
+package vidhya;
 
 public class MarkerInterface implements Cloneable  {
   String name;
