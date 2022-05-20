@@ -5,8 +5,10 @@ public class ExceptionDemo {
         try{
             int i = 50/0;
         }
-        catch (ArithmeticException e){
-
+        catch (ArithmeticException e) {
+            System.out.println(e);
         }
+    System.out.println("The code");
     }
+
 }
