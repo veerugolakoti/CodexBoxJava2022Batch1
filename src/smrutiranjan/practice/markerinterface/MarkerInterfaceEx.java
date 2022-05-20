@@ -5,6 +5,7 @@ public class MarkerInterfaceEx implements Cloneable {
     int i;
 
     public MarkerInterfaceEx(int i) {
+
         this.i = i;
     }
 
