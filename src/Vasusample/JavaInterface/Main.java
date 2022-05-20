@@ -1,5 +1,7 @@
 package Vasusample.JavaInterface;
 
+import Vasusample.Java.Interfacemarker;
+
 public class Main {
     public static void main(String[] args) {
        BatchFirst b1=new BatchFirst();
@@ -12,6 +14,7 @@ public class Main {
        b2.rollmumber();
        b2.rollmumber();
        b2.address();
+
 
     }
 }
