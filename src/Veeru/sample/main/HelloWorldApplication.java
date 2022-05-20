@@ -26,8 +26,5 @@ public class HelloWorldApplication {
         example1.name = "Veeru";
         System.out.println(example1.name + " Actual  data");
         System.out.println(example1.name + " Cloned Data");
-
-
-
     }
 }
