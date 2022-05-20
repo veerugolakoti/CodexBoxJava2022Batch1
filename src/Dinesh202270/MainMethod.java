@@ -14,6 +14,13 @@ newClass.method5();
 Abstraction abstraction=new NewClass();
         System.out.println(abstraction.method2());
 
+        OldClass s=new OldClass() {
+            @Override
+            public void Method1() {
+                super.Method1();
+            }
+        };
+
 
     }
 }

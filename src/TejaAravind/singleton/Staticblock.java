@@ -1,4 +1,4 @@
-package TejaAravind.basics.singleton;
+package TejaAravind.singleton;
 class Staticblock {
     static int i = 10;
 
