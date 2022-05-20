@@ -1,6 +1,4 @@
-package Swathi;
-
-import sun.security.provider.MD2;
+package Swathi.MarkerInterfaceEx;
 
 public class MainMethod {
     public static void main(String[] args) throws CloneNotSupportedException {
