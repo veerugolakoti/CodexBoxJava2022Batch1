@@ -8,7 +8,8 @@ public class TaggedInterfaceExample implements Cloneable {
         System.out.println("Inside Tagged Interface example");
     }
 
-  public Object  getTaggedInterfaceExample () throws CloneNotSupportedException {
-      return   clone();
+    public Object getTaggedInterfaceExample() throws CloneNotSupportedException {
+        return clone();
     }
+
 }
