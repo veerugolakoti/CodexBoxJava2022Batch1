@@ -8,7 +8,7 @@ public class interface2  {
        interface2 sc = new interface2();
 
     MarkerInterface m1= new MarkerInterface("vidya", 2022, 9999 );
-  //  interface2 interface2 = (MarkerInterface)m1.clone(
+  //  interface2 interface2 = (Swathi.MarkerInterface)m1.clone(
 
 
 
