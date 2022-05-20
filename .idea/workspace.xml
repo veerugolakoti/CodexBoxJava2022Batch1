@@ -8,9 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="Initial Commit for shiva encapsulation">
-      <change afterPath="$PROJECT_DIR$/src/Shiva/Constructor/ConstructorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shiva/Constructor/Main.java" afterDir="false" />
+    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="programs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,6 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Shiva.Abstraction.Main" />
+      <item itemvalue="Application.Shiva.Constructor.Main" />
+      <item itemvalue="Application.Shiva.Encapsulation.Main" />
+      <item itemvalue="Application.Shiva.Interfaces.Main" />
+      <item itemvalue="Application.Shiva.MethodOverloading.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Shiva.Constructor.Main" />
@@ -219,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653032369938</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="programs">
+      <created>1653046118528</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653046118528</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +254,7 @@
     <MESSAGE value="Initial Commit for shiva abstraction" />
     <MESSAGE value="Initial Commit for shiva interfaces" />
     <MESSAGE value="Initial Commit for shiva encapsulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit for shiva encapsulation" />
+    <MESSAGE value="programs" />
+    <option name="LAST_COMMIT_MESSAGE" value="programs" />
   </component>
 </project>
