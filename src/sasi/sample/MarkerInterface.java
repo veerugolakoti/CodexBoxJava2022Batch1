@@ -6,9 +6,7 @@ public class MarkerInterface implements Cloneable {
         System.out.println("i am inside the tag");
     }
 
-    public  Object getMarkerInterface()
-            throws CloneNotSupportedException {
-
+    public  Object getMarkerInterface() throws CloneNotSupportedException {
         return clone();
     }
 }
