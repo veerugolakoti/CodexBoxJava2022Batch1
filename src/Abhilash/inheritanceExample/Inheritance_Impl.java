@@ -9,7 +9,7 @@ public class Inheritance_Impl implements Inheritancetypes, inheritancetype2 {
 
     @Override
     public void Student() {
-        System.out.println(id = 470);
+        System.out.println(id = 70);
         System.out.println(name = "Abhilash");
 
     }
