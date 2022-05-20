@@ -11,11 +11,13 @@ public class ExamSeatingArrangementApplication {
     String lName;
     long phNumber;
     String address;
+    double hallticket;
     int hallTi;
+    int stuNo;
     public void getGenerateHallTicket() {
 
         System.out.println("Enter no.of student participate in Exam");
-        int stuNo = scanner.nextInt();
+        stuNo = scanner.nextInt();
         for (int i=1;i<=stuNo;i++) {
             System.out.println("Enter Student First Name::");
            fName = scanner.next();
@@ -25,7 +27,7 @@ public class ExamSeatingArrangementApplication {
             phNumber = scanner.nextLong();
             System.out.println("Enter your Address::");
             String address = scanner.next();
-            double hallticket = Math.random()*200;
+             hallticket = Math.random()*200;
             hallTi  = (int) Math.round(hallticket);
             System.out.println("Create HallTicket Number:; " + hallTi);
         }
