@@ -1,4 +1,4 @@
-package TejaAravind.basics.singleton;
+package TejaAravind.singleton;
 
 
 
