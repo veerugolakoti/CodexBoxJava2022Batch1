@@ -1,6 +1,4 @@
-package interfaces;
-
-import java.lang.Object;
+package vidhya;
 
 public class interface2  {
     public static void main(String[] args) {
