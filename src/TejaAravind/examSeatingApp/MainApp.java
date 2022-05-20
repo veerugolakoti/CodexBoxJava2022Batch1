@@ -1,4 +1,4 @@
-package TejaAravind.basics.singleton.examSeatingApp;
+package TejaAravind.examSeatingApp;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package TejaAravind.basics.singleton;
+package TejaAravind.singleton;
 
 public class Singleton {
     private static Singleton st;
