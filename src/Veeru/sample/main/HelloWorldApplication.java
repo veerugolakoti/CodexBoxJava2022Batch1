@@ -13,8 +13,6 @@ public class HelloWorldApplication {
         TaggedInterfaceExample example1 = new TaggedInterfaceExample();
         example1.name = "Vidya";
         System.out.println(example1.name + " Actual  data");
-
-
         TaggedInterfaceExample  example2 = null;
         try {
             GoogleEmployee employee = (GoogleEmployee) example1.getTaggedInterfaceExample();
