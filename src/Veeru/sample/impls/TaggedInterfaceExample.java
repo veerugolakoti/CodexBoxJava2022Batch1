@@ -1,6 +1,6 @@
 package Veeru.sample.impls;
 
-public class TaggedInterfaceExample implements Cloneable {
+public class TaggedInterfaceExample  {
 
     public String name;
 
@@ -8,8 +8,8 @@ public class TaggedInterfaceExample implements Cloneable {
         System.out.println("Inside Tagged Interface example");
     }
 
-    public Object getTaggedInterfaceExample() throws CloneNotSupportedException {
-        return clone();
+  public Object  getTaggedInterfaceExample () throws CloneNotSupportedException {
+      return   clone();
     }
-
 }
+
