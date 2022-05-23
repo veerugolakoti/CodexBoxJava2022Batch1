@@ -6,7 +6,7 @@ public class OnlineSurveyApplications
     {
         System.out.println("Welcome to Swiggy Online Survey");
 
-        junaid.sampleproject.assessment3.GetSurvey getSurvey = new junaid.sampleproject.assessment3.GetSurvey();
+        junaid.sampleproject.Assessment3.GetSurvey getSurvey = new junaid.sampleproject.Assessment3.GetSurvey();
 
         getSurvey.getAnswer();
 
