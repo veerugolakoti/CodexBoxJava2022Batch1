@@ -1,7 +1,9 @@
-package vidhya;
+package vidhya.vidya;
 
 public class MarkerInterface implements Cloneable  {
-  String name;
+
+    String name;
+
   int id ;
   int result;
    public MarkerInterface(String name ,int id ,int result){
@@ -9,11 +11,14 @@ public class MarkerInterface implements Cloneable  {
       this.name = name;
       this.result = result;
   }
-  public void displayDetails(){
-      System.out.println("name : " +name );
-      System.out.println("id " +id);
-      System.out.println("result " +result);
-  }
+
+
+
+    protected Object clone() throws CloneNotSupportedException
+    {
+        return super.clone();
+    }
+
 
 
 
