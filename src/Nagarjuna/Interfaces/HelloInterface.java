@@ -1,4 +1,4 @@
-package Nag.Interfaces;
+package Nagarjuna.Interfaces;
 
 public class HelloInterface {
     public static void main(String[] args) {

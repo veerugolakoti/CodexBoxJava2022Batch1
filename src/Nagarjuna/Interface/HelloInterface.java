@@ -1,4 +1,4 @@
-package Nagarjuna1.Interface;
+package Nagarjuna.Interface;
 
 public class HelloInterface {
     public static void main(String[] args) {

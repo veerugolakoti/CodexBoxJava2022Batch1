@@ -1,4 +1,4 @@
-package Nagarjuna1Marker;
+package Nagarjuna.Nagarjuna1Marker;
 
 public class MarkerInterface implements Cloneable{
 int num;

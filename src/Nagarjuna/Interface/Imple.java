@@ -1,4 +1,4 @@
-package Nagarjuna1.Interface;
+package Nagarjuna.Interface;
 
 public class Imple  implements Interface1,Interface2{
 
