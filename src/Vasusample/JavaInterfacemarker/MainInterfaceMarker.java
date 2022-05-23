@@ -1,4 +1,4 @@
-package Vasusample.Java;
+package Vasusample.JavaInterfacemarker;
 
 public class MainInterfaceMarker {
     public static void main(String[] args) throws CloneNotSupportedException {
