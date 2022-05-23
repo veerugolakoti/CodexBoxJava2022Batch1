@@ -8,9 +8,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="Initial Commit for shiva interfaces">
-      <change afterPath="$PROJECT_DIR$/src/Shiva/Encapsulation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shiva/Encapsulation/Student.java" afterDir="false" />
+    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="Commit for Duplicate Array">
+      <change afterPath="$PROJECT_DIR$/src/Sohail/sample/Javatraining/Arraymatrices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +64,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/CodexBoxJava2022Batch1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CodexBoxJava2022Batch1&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\CodexBoxJava2022Batch1\src\sangamesh\Assesment2" />
