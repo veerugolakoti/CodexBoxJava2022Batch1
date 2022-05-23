@@ -1,9 +1,10 @@
 package rajat.sample.main;
 
 import rajat.sample.clonable.MarkerInterface;
-import rajat.sample.interfaces.ImplClass;
-import rajat.sample.singleton.SingleTonClass;
 import rajat.sample.immutablility.ImmutabilityClass;
+import rajat.sample.interfaces.ImplClass;
+import rajat.sample.practice.PracticeBesic;
+import rajat.sample.singleton.SingleTonClass;
 
 public class MainClassOops {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -155,9 +156,10 @@ public class MainClassOops {
         ScannerClass scannerClass = new ScannerClass();
         scannerClass.getScanner();
 
-*//*
+*/
         System.out.println("=========================================");
         System.out.println("====Immutability Class Program=====");
+
         ImmutabilityClass immutabilityClass = new ImmutabilityClass(202253,"Rajat","7008697185",6285.00,0.9f);
         System.out.println("My Name is ::"+immutabilityClass.getName());
         System.out.println("My EmpId is::"+immutabilityClass.getEmpId());
@@ -171,13 +173,15 @@ public class MainClassOops {
 
         System.out.println("========================================");
         System.out.println("====Single tonClass======");
+
         SingleTonClass singleTonClass = SingleTonClass.getSingleTonClass();
         SingleTonClass singleTonClass1 = SingleTonClass.getSingleTonClass();
         SingleTonClass singleTonClass2 = SingleTonClass.getSingleTonClass();
         System.out.println(singleTonClass);
+
         System.out.println(singleTonClass1);
         System.out.println(singleTonClass2);
-*/
+
         System.out.println("===========================================");
         System.out.println("=====InterFace and Abstract class ====");
         ImplClass implClass = new ImplClass();
@@ -187,6 +191,16 @@ public class MainClassOops {
         System.out.println(markerInterface.getClone());
         markerInterface.name="Rajat";
         System.out.println(markerInterface.name+"Lipu");
+        MarkerInterface markerInterface1 =(MarkerInterface) markerInterface.getClone();
+        System.out.println("=====Practice program=======");
+        PracticeBesic.sub();
+        System.out.println(PracticeBesic.b);
+//        PracticeBesic.add();
+
+        PracticeBesic practiceBesic=new PracticeBesic();
+        practiceBesic.add();
+        practiceBesic.sub();
+
 
     }
 }
