@@ -1,4 +1,4 @@
-package SASIFILE.inheritance;
+package sasi.sample.inheritance;
 
 public class Father {
      public String getS() {

@@ -1,4 +1,4 @@
-package SASIFILE.inheritance;
+package sasi.sample.inheritance;
 
 public class Main {
     public static void main(String[] args) {
