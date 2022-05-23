@@ -1,4 +1,4 @@
-package junaid.sampleproject.assessment3;
+package junaid.sampleproject.Assessment3;
 
 public class OnlineSurveyApplications
 {
@@ -6,7 +6,7 @@ public class OnlineSurveyApplications
     {
         System.out.println("Welcome to Swiggy Online Survey");
 
-        GetSurvey getSurvey = new GetSurvey();
+        junaid.sampleproject.assessment3.GetSurvey getSurvey = new junaid.sampleproject.assessment3.GetSurvey();
 
         getSurvey.getAnswer();
 
