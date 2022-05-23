@@ -1,12 +1,28 @@
 package Abhilash.interfaceEx;
 
-public class InterfaceExample implements Cloneable{
+public class InterfaceExample implements Cloneable,Interface1{
     String s = "ABHILASH";
-    void display() {
-        System.out.println("i am working on tagged interfaces");
-    }
-    public Object getInterfaceExample() throws CloneNotSupportedException {
 
-        return clone();
+    public Object  getInterfaceExample()  {
+
+        try {
+
+            return clone();
+        }
+        catch (CloneNotSupportedException e) {
+            System.out.println("Clone not supported exception");
+        }
+        return null;
+    }
+
+    @Override
+    public void employee() {
+        double id = Math.random();
+        System.out.println(id);
+    }
+
+    @Override
+    public void Student() {
+
     }
 }
