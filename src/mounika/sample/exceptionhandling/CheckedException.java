@@ -1,4 +1,4 @@
 package mounika.sample.exceptionhandling;
 
-public class ExceptionHandlingProgram {
+public class CheckedException {
 }
