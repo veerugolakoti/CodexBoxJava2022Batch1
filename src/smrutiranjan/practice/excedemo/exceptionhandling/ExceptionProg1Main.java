@@ -1,9 +1,8 @@
-package smrutiranjan.practice.excedemo;
+package smrutiranjan.practice.excedemo.exceptionhandling;
 
-import smrutiranjan.practice.excedemo.ExceptionProg1;
-
-public class ExceptionMain {
+public class ExceptionProg1Main {
     public static void main(String[] args) {
+
         try{
             ExceptionProg1 ep = new ExceptionProg1();
 
@@ -11,7 +10,7 @@ public class ExceptionMain {
             ep.setAccno(new int[]{11, 12, 13, 14});
             ep.setName(new String[]{"risi", "satya", "rabi", "laxmi", "subha"});
             ep.setBal(new long[]{1002,2001,3999,4580,2541,5900,7850});
-            for(int i=0; i<4; i++){
+            for(int i=0; i<7; i++){
                 System.out.println(ep.getAccno()+"\t"+ep.getName()+"\t"+ep.getBal());
 
                 if(ep.getBal()[i]<3000){

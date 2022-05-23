@@ -1,4 +1,4 @@
-package smrutiranjan.practice.trycatchex;
+package smrutiranjan.practice.excedemo.trycatchex;
 
 public class ExceptionDemo {
     public static void main(String[] args) {
