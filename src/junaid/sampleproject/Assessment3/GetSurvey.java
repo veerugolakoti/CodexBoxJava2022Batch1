@@ -1,8 +1,5 @@
-package junaid.sampleproject.Assessment3;
+package junaid.sampleproject.assessment3;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-
-import java.util.Objects;
 import java.util.Scanner;
 
 public class GetSurvey {
