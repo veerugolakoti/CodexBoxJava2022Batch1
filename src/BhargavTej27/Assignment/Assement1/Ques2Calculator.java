@@ -1,4 +1,4 @@
-package BhargavTej27.Assignment1;
+package BhargavTej27.Assignment.Assement1;
 
 import java.util.Scanner;
 

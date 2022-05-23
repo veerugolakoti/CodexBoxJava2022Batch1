@@ -1,4 +1,4 @@
-package BhargavTej27.Assignment1;
+package BhargavTej27.Assignment.Assement1;
 
 public class Ques3Array {
     public static void main(String[] args) {
