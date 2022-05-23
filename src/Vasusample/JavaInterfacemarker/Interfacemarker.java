@@ -1,4 +1,4 @@
-package Vasusample.Java;
+package Vasusample.JavaInterfacemarker;
 
 public class Interfacemarker implements Cloneable{
     String name;
