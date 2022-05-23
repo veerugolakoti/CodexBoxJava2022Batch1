@@ -4,7 +4,9 @@ import java.security.PrivateKey;
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Student implements Cloneable {
+public class Student  implements Cloneable
+{
+
     public int Id;
     public String studentname;
     public double age;

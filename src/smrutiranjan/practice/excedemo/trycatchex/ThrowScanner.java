@@ -1,4 +1,4 @@
-package smrutiranjan.practice.trycatchex;
+package smrutiranjan.practice.excedemo.trycatchex;
 
 import java.util.Scanner;
 

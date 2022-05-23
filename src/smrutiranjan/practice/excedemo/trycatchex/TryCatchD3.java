@@ -1,4 +1,4 @@
-package smrutiranjan.practice.trycatchex;
+package smrutiranjan.practice.excedemo.trycatchex;
 
 public class TryCatchD3 {
     public static void main(String[] args){

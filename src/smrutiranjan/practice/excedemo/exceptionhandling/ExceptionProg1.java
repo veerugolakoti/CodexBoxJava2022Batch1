@@ -1,4 +1,4 @@
-package smrutiranjan.practice.excedemo;
+package smrutiranjan.practice.excedemo.exceptionhandling;
 
 public class ExceptionProg1 extends Throwable {
     private static int accno[];

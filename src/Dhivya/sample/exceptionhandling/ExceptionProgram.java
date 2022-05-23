@@ -10,10 +10,10 @@ public class ExceptionProgram {
             System.out.println("Adding number: " + c);
         }
         catch (ArithmeticException e){
-            int d=100,f=10;
-            int g=d/f;
-            System.out.println(g);
-            System.out.println("Airthmetic exception");
+            //int d=100,f=10;
+            //int g=d/f;
+            //System.out.println(g);
+            System.out.println(e);
         }
 
 
