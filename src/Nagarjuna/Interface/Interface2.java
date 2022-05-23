@@ -1,4 +1,4 @@
-package Nagarjuna1.Interface;
+package Nagarjuna.Interface;
 
 public interface Interface2 {
     void f2();
