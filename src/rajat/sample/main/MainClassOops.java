@@ -1,13 +1,17 @@
 package rajat.sample.main;
 
 import rajat.sample.clonable.MarkerInterface;
+import rajat.sample.exceptionhandeling.ArithmeticExceptionClass;
+import rajat.sample.exceptionhandeling.ArrayIndexBoundOfExceptionClass;
+import rajat.sample.exceptionhandeling.CheckedException;
+import rajat.sample.exceptionhandeling.FileNotFoundExceptionClass;
 import rajat.sample.immutablility.ImmutabilityClass;
 import rajat.sample.interfaces.ImplClass;
 import rajat.sample.practice.PracticeBesic;
 import rajat.sample.singleton.SingleTonClass;
 
 public class MainClassOops {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) {
      /*   Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a color name::");
         String str =scanner.nextLine();
@@ -157,7 +161,7 @@ public class MainClassOops {
         scannerClass.getScanner();
 
 */
-        System.out.println("=========================================");
+       /* System.out.println("=========================================");
         System.out.println("====Immutability Class Program=====");
 
         ImmutabilityClass immutabilityClass = new ImmutabilityClass(202253,"Rajat","7008697185",6285.00,0.9f);
@@ -193,14 +197,47 @@ public class MainClassOops {
         System.out.println(markerInterface.name+"Lipu");
         MarkerInterface markerInterface1 =(MarkerInterface) markerInterface.getClone();
         System.out.println("=====Practice program=======");
-        PracticeBesic.sub();
-        System.out.println(PracticeBesic.b);
-//        PracticeBesic.add();
+        PracticeBasic.sub();
+        System.out.println(PracticeBasic.b);
+//        PracticeBasic.add();
 
-        PracticeBesic practiceBesic=new PracticeBesic();
-        practiceBesic.add();
-        practiceBesic.sub();
+        PracticeBasic practiceBasic=new PracticeBasic();
+        practiceBasic.add();
+        practiceBasic.sub();*/
+ /*       System.out.println("=====================================================");
+        System.out.println("======Exception Handling ====");
+        //CloneNotSupported Exception and
+        CheckedException checkedException = new CheckedException();
+        System.out.println(checkedException);
+        checkedException.setName("Rajat Kumar Behera");
+        checkedException.setPhNo(7008697185l);
+        System.out.println(checkedException.getName());
+        System.out.println(checkedException.getPhNo());
+//        CheckedException checkedException2 =  checkedException.getCheckedException();
+        //using throws in parent class handel in main class
+        CheckedException checkedException1 = null;
+        try {
+            checkedException1 = checkedException.getCheckedException();
+        } catch (CloneNotSupportedException e) {
+            System.out.println("The exception rise because of you cannot implement Cloneable interface");
+        }
+        System.out.println(checkedException1);
+        if (checkedException1 !=null) {
+            checkedException1.setName("Lipu");
+            checkedException1.setPhNo(9114099086l);
+            System.out.println(checkedException1.getName());
+            System.out.println(checkedException1.getPhNo());
 
+        }*/
+       /* System.out.println("=====ArithmeticException and InputMismatchException========");
+        ArithmeticExceptionClass arithmeticException1 = new ArithmeticExceptionClass();
+        arithmeticException1.getDivision();
+        System.out.println("=====FileNotFoundException==========");
+        FileNotFoundExceptionClass fileNotFoundExceptionClass = new FileNotFoundExceptionClass();
+        fileNotFoundExceptionClass.getFileNotFoundMethod();*/
+        System.out.println("====ArrayOutOfIndexBoundException====");
+        ArrayIndexBoundOfExceptionClass exceptionClass = new ArrayIndexBoundOfExceptionClass();
+        exceptionClass.getArrayIndexBound();
 
     }
 }
