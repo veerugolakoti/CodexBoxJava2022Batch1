@@ -1,4 +1,4 @@
-package Nag.Interfaces;
+package Nagarjuna.Interfaces;
 
 public interface Area {
     void square();

@@ -1,4 +1,4 @@
-package Palindrome;
+package Nagarjuna.Palindrome;
 
 import java.util.Scanner;
 
