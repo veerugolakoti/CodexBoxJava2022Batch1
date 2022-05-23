@@ -1,4 +1,4 @@
-package junaid.sampleproject.Assessment3;
+package junaid.sampleproject.assessment3;
 
 public class OnlineSurveyApplications
 {
