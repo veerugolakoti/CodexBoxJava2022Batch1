@@ -5,8 +5,8 @@ import Abhilash.exceptionhandling.UsingFinally;
 import Abhilash.exceptionhandling.UsingFinallyAndSystem_exit;
 import Abhilash.exceptionhandling.Number;
 import Abhilash.inheritanceExample.Inheritance_Impl;
-import Abhilash.interfaceEx.Employee;
-import Abhilash.interfaceEx.InterfaceExample;
+import Abhilash.interfaceExamples.Employee;
+import Abhilash.interfaceExamples.InterfaceExample;
 
 public class MainApplication {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package Abhilash.inheritanceExample;
 
-import Abhilash.interfaceEx.Interface1;
-import Abhilash.interfaceEx.Interface2;
+import Abhilash.interfaceExamples.Interface1;
+import Abhilash.interfaceExamples.Interface2;
 
 public class Inheritance_Impl implements Interface1, Interface2 {
     int id ;

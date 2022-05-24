@@ -1,4 +1,4 @@
-package Abhilash.interfaceEx;
+package Abhilash.interfaceExamples;
 
 public class InterfaceExample implements Cloneable,Interface1{
     public String s = "ABHILASH";
