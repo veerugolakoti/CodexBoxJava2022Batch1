@@ -4,14 +4,17 @@ import Abhilash.exceptionhandling.CustomExceptionExample;
 import Abhilash.exceptionhandling.UsingFinally;
 import Abhilash.exceptionhandling.UsingFinallyAndSystem_exit;
 import Abhilash.exceptionhandling.Number;
+import Abhilash.fileHandling.FirstFile;
 import Abhilash.inheritanceExample.Inheritance_Impl;
 import Abhilash.interfaceExamples.Employee;
 import Abhilash.interfaceExamples.InterfaceExample;
 
+import java.io.IOException;
+
 public class MainApplication {
-    public static void main(String[] args) {
-        CustomExceptionExample customExceptionExample = new CustomExceptionExample();
-        UsingFinallyAndSystem_exit usingFinallyAndSystem_exit = new UsingFinallyAndSystem_exit();
+    public static void main(String[] args) throws IOException {
+        //CustomExceptionExample customExceptionExample = new CustomExceptionExample();
+       // UsingFinallyAndSystem_exit usingFinallyAndSystem_exit = new UsingFinallyAndSystem_exit();
         Number number = new Number();
         System.out.println("\"Number.class output\"");
         number.arithmeticExample();
@@ -54,6 +57,10 @@ public class MainApplication {
 
         UsingFinally usingFinally = new UsingFinally();
         usingFinally.finallyEx();
+
+        System.out.println("\" File handling output \"");
+        FirstFile firstFile = new FirstFile();
+        firstFile.getFile();
 
     }
 }
