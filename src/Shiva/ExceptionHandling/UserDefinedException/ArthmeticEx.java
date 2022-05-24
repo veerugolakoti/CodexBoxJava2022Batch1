@@ -7,7 +7,7 @@ public class ArthmeticEx {
             System.out.println(c);
         } catch (MyExceptionExample mx) {
             System.out.println("User defined exception");
-            throw new MyExceptionExample("Trying to divide with zero");
+            throw new MyExceptionExample(mx.getMessage());
         }
     }
 }
