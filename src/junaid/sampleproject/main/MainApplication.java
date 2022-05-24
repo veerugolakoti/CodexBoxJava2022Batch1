@@ -1,10 +1,11 @@
 package junaid.sampleproject.main;
 
+import junaid.sampleproject.exceptionhandling.UserDefinedException;
 import junaid.sampleproject.taggedinterfaces.TaggedInterfaces;
 
 public class MainApplication
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws UserDefinedException
     {
       /*  InterfacesImpl interfaces = new InterfacesImpl();
         interfaces.getInterfaces();
@@ -37,5 +38,13 @@ public class MainApplication
          taggedInterface.aFloat = 8.5f;
          System.out.println("My Second value is: " + taggedInterface.aFloat);
 
-     }
+        System.out.println("==============USER DEFINED EXCEPTION=======================");
+       try {
+           throw  new UserDefinedException("Mohammed");
+       }catch (UserDefinedException exception) {
+           System.out.println("I am inside the UserDefinedException");
+//           System.out.println(exception.getMessage());
+       }
+
+    }
     }
