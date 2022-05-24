@@ -1,12 +1,11 @@
 package Abhilash.interfaceEx;
 
 public class InterfaceExample implements Cloneable,Interface1{
-    String s = "ABHILASH";
+    public String s = "ABHILASH";
 
     public Object  getInterfaceExample()  {
 
         try {
-
             return clone();
         }
         catch (CloneNotSupportedException e) {
@@ -17,7 +16,7 @@ public class InterfaceExample implements Cloneable,Interface1{
 
     @Override
     public void employee() {
-        double id = Math.random();
+        double id = Math.random()*1000;
         System.out.println(id);
     }
 

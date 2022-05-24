@@ -4,16 +4,14 @@ import Abhilash.interfaceEx.Interface1;
 import Abhilash.interfaceEx.Interface2;
 
 public class Inheritance_Impl implements Interface1, Interface2 {
-    int id=10;
+    int id ;
     String name;
 
     @Override
     public void Student() {
-        id = 2/id;
-//       double d= (double) id;
-//        d =  Math.random()* 10000;
-        System.out.println(id);
-       // System.out.println(  id =  Math.random()* 10000);
+        int id = 10;
+        id = (int) (Math.random()* 101);
+        System.out.println(id );
         System.out.println(name = "Abhilash");
 
     }
@@ -26,10 +24,4 @@ public class Inheritance_Impl implements Interface1, Interface2 {
 
     }
 
-    public static void main(String[] args) {
-        Inheritance_Impl  inheritance_ = new Inheritance_Impl();
-        inheritance_.Student();
-        inheritance_.employee();
-
-    }
 }
