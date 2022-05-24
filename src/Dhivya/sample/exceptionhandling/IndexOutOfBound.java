@@ -1,6 +1,8 @@
 package Dhivya.sample.exceptionhandling;
 
-public class IndexOutOfBound extends ExceptionProgram{
+import Dhivya.sample.mainmethod.MainAplication;
+
+public class IndexOutOfBound extends MainAplication {
     //public static void main(String[] args) {
 
 
