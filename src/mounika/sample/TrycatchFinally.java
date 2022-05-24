@@ -1,6 +1,6 @@
 package mounika.sample;
 
-import Dhivya.sample.exceptionhandling.checkedException.IndexOutOfBound;
+import Dhivya.sample.exceptionhandling.IndexOutOfBound;
 
 import java.lang.reflect.Array;
 
