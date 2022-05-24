@@ -1,8 +1,8 @@
 package Vasusample.JavaInterfacemarker;
 
 public class Interfacemarker implements Cloneable{
-    String name;
-    int id;
+    public String name;
+    public int id;
 
     String n;
     int i;
