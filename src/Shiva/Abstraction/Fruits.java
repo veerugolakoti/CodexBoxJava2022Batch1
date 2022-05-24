@@ -1,5 +1,5 @@
 package Shiva.Abstraction;
 
 public abstract class Fruits {
-    public abstract String nutrition();
+    public  abstract String nutrition();
 }

@@ -1,7 +1,7 @@
 package rajat.sample.strings;
 
 public class StringBuilderApp {
-    public static void main(String[] args) {
+    public void getStringBuilder() {
         String str = "Write String Program";
         StringBuilder stringBuilder = new StringBuilder(str);
         //toString()

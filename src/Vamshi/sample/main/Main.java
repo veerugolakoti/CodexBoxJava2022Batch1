@@ -45,7 +45,7 @@ public class Main {
        System.out.println(bike2.RPM());
    }*/
 
-
+/*
        public static void main(String[] args) {
            //checkedException
            Employee emp = new Employee();
@@ -59,7 +59,15 @@ public class Main {
                } catch (CheckUserException ex) {
                }
            }
-       }
+       }*/
+           public static void main(String[] args) {
+               //Unchecked Exception
+               Employee emp = new Employee();
+               emp.employee();
+               //System.out.println(emp.);
+
+}
+
 }
 
 

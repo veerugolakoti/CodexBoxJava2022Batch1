@@ -19,50 +19,7 @@ public class MainClassApplication {
         e2.setEmpPhNo(7008697185L);
         e2.setEmpAddress("Hyderabad");*/
 
-        Student s1 =new Student();
-        s1.setStuName("Lipu");
-        s1.setStuRollNo(1001);
-        s1.setsAddress("Odisha");
-        s1.setsPhNo(911869715L);
 
-        Student s2 =new Student();
-        s2.setStuName("ram");
-        s2.setStuRollNo(1002);
-        s2.setsAddress("BBSR");
-        s2.setsPhNo(911869715L);
-
-        Student s3 =new Student();
-        s3.setStuName("Rajat");
-        s3.setStuRollNo(1003);
-        s3.setsAddress("pdp");
-        s3.setsPhNo(911869715L);
-
-        Student s4 =new Student();
-        s4.setStuName("Lipu");
-        s4.setStuRollNo(1005);
-        s4.setsAddress("hyd");
-        s4.setsPhNo(911869715L);
-        s4.setStuName("Lila");
-
-        Student s5 =new Student();
-        s5.setStuName("dipu");
-        s5.setStuRollNo(1006);
-        s5.setsAddress("ctc");
-        s5.setsPhNo(911869715L);
-
-        List<Student> students=new ArrayList<>();
-        students.add(s1);
-        students.add(s2);
-        students.add(s3);
-        students.add(s4);
-        students.add(s5);
-        for(Student student:students){
-            System.out.println(student.getStuName());
-            System.out.println(student.getStuRollNo());
-            System.out.println(student.getsPhNo());
-            System.out.println(student.getsAddress());
-
-        }
 
      /*   for(int i=0;i<students.size();i++) {
             // if(i==0) {
@@ -91,20 +48,7 @@ public class MainClassApplication {
 
             }   else
         }
-          for(int i=0;i<students.size();i++){
-            System.out.println("count class "+i);
 
-
-            if(i==2){
-                System.out.println("before using continue");
-                continue;
-            } else if (i==4) {
-                System.out.println("BEFORE BREAK");
-                break;
-            }else{
-              //
-                System.out.println("flow properly");
-            }
 
         }
 */
