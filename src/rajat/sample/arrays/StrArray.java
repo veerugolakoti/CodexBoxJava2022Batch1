@@ -1,7 +1,7 @@
 package rajat.sample.arrays;
 
 public class StrArray {
-    public static void main(String[] args) {
+    public void getStringArray() {
 
         String[] str = new String[]{"Rajat","Deepak","Kalu","Bhanaja"};
 

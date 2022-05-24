@@ -11,8 +11,5 @@ public class TwoDimensionalArrays {
         }
     }
 
-    public static void main(String[] args) {
-        TwoDimensionalArrays tda= new  TwoDimensionalArrays();
-        tda.twoDimensionalArrary();
-    }
+
 }

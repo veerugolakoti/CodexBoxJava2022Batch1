@@ -1,7 +1,7 @@
 package Shiva.FinalKeyword;
 
 public class FinalClassEx {
-    public void run() {
+    void run() {
         System.out.println("Runing");
     }
 }
