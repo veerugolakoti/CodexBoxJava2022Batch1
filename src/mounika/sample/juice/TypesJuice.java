@@ -1,6 +1,8 @@
 package mounika.sample.juice;
 
-public class TypesJuice {
+import rajat.sample.interfaces.MyInterface;
+
+public class TypesJuice  {
     String typeJuice ;
 
     public String getTypeJuice() {
@@ -20,4 +22,10 @@ public class TypesJuice {
     }
 
     int Typesize;
+
+    public static void main(String[] args) {
+        TypesJuice typesJuice=new TypesJuice();
+        System.out.println(typesJuice.getTypeJuice());
+        System.out.println(typesJuice.getTypesize());
+    }
 }
