@@ -1,4 +1,4 @@
-package vidhya.vidya.interfac;
+package vidya.interfac.interfac;
 
 public class Square implements Shape{
 

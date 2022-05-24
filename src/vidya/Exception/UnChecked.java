@@ -1,7 +1,6 @@
-package vidhya.Exception;
+package vidya.Exception;
 
 import java.io.File;
-import java.io.IOException;
 
 public class UnChecked {
     public static void main(String[] args) {

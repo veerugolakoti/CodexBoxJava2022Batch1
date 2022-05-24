@@ -1,4 +1,4 @@
-package vidhya.vidya;
+package vidya.Inheritance2;
 
 public class MarkerInterface implements Cloneable  {
 

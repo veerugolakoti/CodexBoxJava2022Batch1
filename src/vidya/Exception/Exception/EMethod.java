@@ -1,6 +1,6 @@
-package vidhya.vidya.Exception;
+package vidya.Exception.Exception;
 
-public class Emethod1 {
+public class EMethod {
     public static void main(String[] args) {
         try {
             int divideByZero = 3/0;
