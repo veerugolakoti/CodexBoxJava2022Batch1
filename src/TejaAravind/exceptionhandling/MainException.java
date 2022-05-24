@@ -4,16 +4,12 @@ import java.io.File;
 import java.io.FileReader;
 
 public class MainException {
-    public static void main(String[] args) throws CloneNotSupportedException {
-       Human human1 = new Human("sam", "social worker");
+    public static void main(String[] args) throws  CloneNotSupportedException {
+        Human human1 = new Human("sam", "social worker");
         System.out.println(human1.getName());
         System.out.println(human1.getJob());
 
         Human human2 = human1.getClone();
-
-
-
-
 
 
 //        Human human2 = null;
@@ -27,12 +23,10 @@ public class MainException {
         try {
             System.out.println(human2.getName());
             System.out.println(human2.getJob());
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("sasi exception");
         }
 
-
-        }
 
 //        Human human2 = human1.getClone();
 //        System.out.println(human2.getName());
@@ -113,5 +107,14 @@ public class MainException {
 //        }
 //        return avg;
 //    }
+        Human human3 = new Human("sangam", "coder");
+        try {
+            human3.getUncheckedException();
+        } catch (TejaUncheckedException e) {
+            System.out.println(e.getMessage());
+        }
+
+    }
+
 
 }

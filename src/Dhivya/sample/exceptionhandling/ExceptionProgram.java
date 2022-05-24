@@ -5,7 +5,7 @@ public class ExceptionProgram {
 
 
 
-    /* try {
+     try {
          int a=30, b=0;
          int c=a/b;
          System.out.println("Adding number: " + c);
@@ -18,16 +18,6 @@ public class ExceptionProgram {
      }
 
 
- }*/
-        IndexOutOfBound indexOutOfBound = new IndexOutOfBound();
-        try {
-            indexOutOfBound.clone();
-            String str = null;
-            System.out.println(str.length());
-        } catch (java.lang.NullPointerException e) {
-            System.out.println(e);
-        } catch (CloneNotSupportedException e) {
-            throw new RuntimeException(e);
-        }
+ }
 
-    }}
+    }

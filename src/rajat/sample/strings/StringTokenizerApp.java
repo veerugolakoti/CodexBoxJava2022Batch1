@@ -3,7 +3,7 @@ package rajat.sample.strings;
 import java.util.StringTokenizer;
 
 public class StringTokenizerApp {
-    public static void main(String[] args) {
+    public void  getStringTokenizer() {
         String str="java is a programing language";
         StringTokenizer stringTokenizer=new StringTokenizer(str);
         System.out.println(str);
