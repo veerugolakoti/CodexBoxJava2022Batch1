@@ -1,4 +1,4 @@
-package Dhivya.sample.exceptionhandling.checkedException;
+package Dhivya.sample.exceptionhandling;
 
 public class NullPointerException {
     public static void main(String[] args) {

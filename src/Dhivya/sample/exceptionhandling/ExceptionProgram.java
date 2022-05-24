@@ -1,6 +1,4 @@
-package Dhivya.sample.exceptionhandling.checkedException;
-
-import rajat.sample.inheritance.SonyLaptop;
+package Dhivya.sample.exceptionhandling;
 
 public class ExceptionProgram {
     public static void main(String[] args) {
@@ -23,10 +21,13 @@ public class ExceptionProgram {
  }*/
         IndexOutOfBound indexOutOfBound = new IndexOutOfBound();
         try {
+            indexOutOfBound.clone();
             String str = null;
-            System.out.println(str);
+            System.out.println(str.length());
         } catch (java.lang.NullPointerException e) {
             System.out.println(e);
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException(e);
         }
 
     }}

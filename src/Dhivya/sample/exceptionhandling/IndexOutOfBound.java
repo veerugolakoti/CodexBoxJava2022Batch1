@@ -1,4 +1,4 @@
-package Dhivya.sample.exceptionhandling.checkedException;
+package Dhivya.sample.exceptionhandling;
 
 public class IndexOutOfBound extends ExceptionProgram{
     //public static void main(String[] args) {
@@ -20,9 +20,6 @@ public class IndexOutOfBound extends ExceptionProgram{
 
     }
 
-    public Object clone() throws CloneNotSupportedException {
-        return null;
-    }
 
 }
 
