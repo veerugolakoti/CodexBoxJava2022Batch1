@@ -1,7 +1,7 @@
 package rajat.sample.strings;
 
 public class StringBufferApp {
-    public static void main(String[] args) {
+    public void getStringBuffer() {
         String str = "Write String Program";
         StringBuffer stringBuffer = new StringBuffer(str);
         //toString()

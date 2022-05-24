@@ -1,7 +1,7 @@
 package rajat.sample.arrays;
 
 public class ForEachArrays {
-    public static void main(String[] args) {
+    public void getForEachArray() {
         int[] arr = new int[10];
         int i=10;
         System.out.println("Array value using for each loop");

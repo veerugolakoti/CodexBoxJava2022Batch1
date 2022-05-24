@@ -1,7 +1,7 @@
 package chandan.oopsconcepts.Abstraction1;
 
 public class MainLaptop {
-    public static void main(String[] args) {
+    public static void getmainLaptop() {
 Macbook macbook = new Macbook();
 macbook.setCost(250000);
 macbook.setName("Apple Macebook Air");

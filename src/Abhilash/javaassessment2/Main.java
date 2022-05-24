@@ -1,6 +1,6 @@
 package Abhilash.javaassessment2;
 
-import javax.xml.ws.Service;
+
 import java.util.Scanner;
 
 public class Main {

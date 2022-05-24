@@ -1,18 +1,186 @@
 package rajat.sample.main;
 
+import rajat.sample.arrays.*;
 import rajat.sample.clonable.MarkerInterface;
-import rajat.sample.exceptionhandeling.ArithmeticExceptionClass;
-import rajat.sample.exceptionhandeling.ArrayIndexBoundOfExceptionClass;
-import rajat.sample.exceptionhandeling.CheckedException;
-import rajat.sample.exceptionhandeling.FileNotFoundExceptionClass;
+import rajat.sample.datatype.DataTypeApplication;
+import rajat.sample.exceptionhandeling.*;
+import rajat.sample.flowcontrol.ControlFlowApplication;
 import rajat.sample.immutablility.ImmutabilityClass;
 import rajat.sample.interfaces.ImplClass;
+import rajat.sample.loops.DoWhileloopsApplication;
+import rajat.sample.loops.ForloopsApplication;
+import rajat.sample.loops.WhileLoopsApplication;
+import rajat.sample.operators.Relational.RelationalOperationApplication;
+import rajat.sample.operators.arrithematic.ArithematicOperationApplication;
+import rajat.sample.operators.logical.LogicalOperationApplication;
+import rajat.sample.operators.ternary.TernaryOperationApplication;
+import rajat.sample.operators.unary.UnarryOperationApplication;
 import rajat.sample.practice.PracticeBesic;
 import rajat.sample.singleton.SingleTonClass;
+import rajat.sample.statement.BreakApplication;
+import rajat.sample.statement.ContineuApplication;
+import rajat.sample.statement.ReturnApplication;
+import rajat.sample.strings.*;
+import rajat.sample.student.Student;
+import rajat.sample.variables.HelloWorld;
+import rajat.sample.variables.PracticeVariableApplication;
+
+import javax.jws.soap.SOAPBinding;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class MainClassOops {
     public static void main(String[] args) {
-     /*   Scanner scanner = new Scanner(System.in);
+      /*  System.out.println("============HelloWorldApplication============");
+        HelloWorld helloWorld = new HelloWorld();
+        helloWorld.hello();
+        System.out.println("========VARIABLE========");
+        PracticeVariableApplication variableApplication = new PracticeVariableApplication();
+        variableApplication.getVariable();*/
+
+    /*    System.out.println("====DataTypes========");
+        DataTypeApplication dataTypeApplication = new DataTypeApplication();
+        dataTypeApplication.getDataTypes();*/
+     /*   System.out.println("========FlowControlApplication==========");
+        ControlFlowApplication flowApplication = new ControlFlowApplication();
+        flowApplication.getFlowControl();*/
+       /* System.out.println("======Loops==============");
+        DoWhileloopsApplication doWhileloopsApplication = new DoWhileloopsApplication();
+        doWhileloopsApplication.getDoWhile();
+        ForloopsApplication forloopsApplication = new ForloopsApplication();
+        forloopsApplication.getForLoop();
+        WhileLoopsApplication whileLoopsApplication = new WhileLoopsApplication();
+        whileLoopsApplication.getWhileLoop();*/
+      /*  System.out.println("=============OPERATOR=================");
+        System.out.println("==========ArithmeticOperator==========");
+        ArithematicOperationApplication aoa =new ArithematicOperationApplication();
+        //Addition
+        System.out.println("Addition of two number="+aoa.add);
+        System.out.println("Subtraction of two number="+aoa.sub);
+        System.out.println("Multiplication of two number="+aoa.mul);
+        System.out.println("Division of two number="+aoa.div);
+        System.out.println("Modulo of two number="+aoa.mod);
+        aoa.operation();
+        System.out.println("Successfully Running the Application");
+        System.out.println("==========LogicalOperator=============");
+        LogicalOperationApplication operationApplication = new LogicalOperationApplication();
+        operationApplication.getLogicalOperatur();
+        System.out.println("===========RelationalOperator============");
+        RelationalOperationApplication operationApplication1 = new RelationalOperationApplication();
+        operationApplication1.getRelationalOperator();
+        System.out.println("=======TernaryOperator=========");
+        TernaryOperationApplication ternaryOperationApplication = new TernaryOperationApplication();
+        ternaryOperationApplication.getTernaryOperator();
+        System.out.println("===========UnaryOperator===========");
+        UnarryOperationApplication unarryOperationApplication = new UnarryOperationApplication();
+        unarryOperationApplication.getUnaryOperator();
+*/
+       /* System.out.println("============Statements=============");
+        System.out.println("========BREAK========");
+        BreakApplication breakApplication = new BreakApplication();
+        breakApplication.searchDay();
+        System.out.println("========Continue===========");
+        ContineuApplication contineuApplication = new ContineuApplication();
+        contineuApplication.getContineu();
+        System.out.println("========RReturn=======");
+        ReturnApplication returnApplication = new ReturnApplication();
+        returnApplication.getReturn();*/
+
+       /* System.out.println("=================STRINGS===================");
+        StringApp1 stringApp1 = new StringApp1();
+        stringApp1.getStringAppication();
+        System.out.println("===========StringBuffer=============");
+        StringBufferApp stringBufferApp = new StringBufferApp();
+        stringBufferApp.getStringBuffer();
+        System.out.println("==============StringBuilder================");
+        StringBuilderApp stringBuilderApp = new StringBuilderApp();
+        stringBuilderApp.getStringBuilder();
+        System.out.println("============StringTokenizer==============");
+        StringTokenizerApp stringTokenizerApp = new StringTokenizerApp();
+        stringTokenizerApp.getStringTokenizer();
+        System.out.println("===========StringJoiner=============");
+        Join3StringApp join3StringApp = new Join3StringApp();
+        join3StringApp.getJoinner();
+        System.out.println("=============ReverseString=============");
+        ReverseStringApp reverseStringApp = new ReverseStringApp();
+        reverseStringApp.getReverse();
+        System.out.println("============ReverseUsingStringBuilder===========");
+        ReverseBuilderApp reverseBuilderApp = new ReverseBuilderApp();
+        reverseBuilderApp.getReverseUsingBuilder();
+        System.out.println("=======PalindromeString========");
+        PalindromeStringApp palindromeStringApp = new PalindromeStringApp();
+        palindromeStringApp.getPalindrome();
+        System.out.println("========MethodApplication===========");
+        MethodApp methodApp = new MethodApp();
+        System.out.println(methodApp.addition(12, 23));
+        MethodApp.multiplication(6, 8, 9);
+        System.out.println("==========Constructor=========");
+        byte b = 2;
+        ConstructorApp front= new ConstructorApp(b, 67);
+        ConstructorApp f1=new ConstructorApp(23,76);*/
+/*
+        System.out.println("===========foreachloop===========");
+        Student s1 =new Student();
+        s1.setStuName("Lipu");
+        s1.setStuRollNo(1001);
+        s1.setsAddress("Odisha");
+        s1.setsPhNo(911869715L);
+
+        Student s2 =new Student();
+        s2.setStuName("ram");
+        s2.setStuRollNo(1002);
+        s2.setsAddress("BBSR");
+        s2.setsPhNo(911869715L);
+
+        Student s3 =new Student();
+        s3.setStuName("Rajat");
+        s3.setStuRollNo(1003);
+        s3.setsAddress("pdp");
+        s3.setsPhNo(911869715L);
+
+        Student s4 =new Student();
+        s4.setStuName("Lipu");
+        s4.setStuRollNo(1005);
+        s4.setsAddress("hyd");
+        s4.setsPhNo(911869715L);
+        s4.setStuName("Lila");
+
+        Student s5 =new Student();
+        s5.setStuName("dipu");
+        s5.setStuRollNo(1006);
+        s5.setsAddress("ctc");
+        s5.setsPhNo(911869715L);
+
+        List<Student> students=new ArrayList<>();
+        students.add(s1);
+        students.add(s2);
+        students.add(s3);
+        students.add(s4);
+        students.add(s5);
+        for(Student student:students){
+            System.out.println(student.getStuName());
+            System.out.println(student.getStuRollNo());
+            System.out.println(student.getsPhNo());
+            System.out.println(student.getsAddress());
+
+        } for(int i=0;i<students.size();i++) {
+            System.out.println("count class " + i);
+
+
+            if (i == 2) {
+                System.out.println("before using continue");
+                continue;
+            } else if (i == 4) {
+                System.out.println("BEFORE BREAK");
+                break;
+            } else {
+                //
+                System.out.println("flow properly");
+            }
+        }*/
+        /*System.out.println("=====Abstraction=====");
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a color name::");
         String str =scanner.nextLine();
         System.out.println("Enter a topSpeed::");
@@ -161,6 +329,25 @@ public class MainClassOops {
         scannerClass.getScanner();
 
 */
+      /*  System.out.println("=============ARRAY===============");
+        System.out.println("=========CopyArray=========");
+        CopyArray copyArray = new CopyArray();
+        copyArray.getCopyArray();
+        System.out.println("===========ForEachArray============");
+        ForEachArrays forEachArrays = new ForEachArrays();
+        forEachArrays.getForEachArray();
+        System.out.println("================StringArray===================");
+        StrArray strArray = new StrArray();
+        strArray.getStringArray();
+        System.out.println("============Two Dimensional Array=============");
+        TwoDimensionalArrays twoDimensionalArrays = new TwoDimensionalArrays();
+        twoDimensionalArrays.twoDimensionalArrary();
+        System.out.println("============Dynamic Input Array===========");
+        DynamicInputArray parray=new DynamicInputArray();
+        parray.dynamicInput();
+        parray.getManualInput();*/
+
+
        /* System.out.println("=========================================");
         System.out.println("====Immutability Class Program=====");
 
@@ -235,9 +422,22 @@ public class MainClassOops {
         System.out.println("=====FileNotFoundException==========");
         FileNotFoundExceptionClass fileNotFoundExceptionClass = new FileNotFoundExceptionClass();
         fileNotFoundExceptionClass.getFileNotFoundMethod();*/
+/*
         System.out.println("====ArrayOutOfIndexBoundException====");
         ArrayIndexBoundOfExceptionClass exceptionClass = new ArrayIndexBoundOfExceptionClass();
         exceptionClass.getArrayIndexBound();
-
+        System.out.println("======StringBoundException========");
+        StringOutOfIndexClass stringOutOfIndexClass = new StringOutOfIndexClass();
+        stringOutOfIndexClass.getStringIndexBound();
+        System.out.println("=====Checked UserDefineException=====");
+        CheckUserDefineException userDefineException = new CheckUserDefineException();
+        try {
+            userDefineException.getCheckedUser();
+        }catch (UserCheckedException uc){
+            System.out.println("Provide non zero integer..");
+        }*/
+        System.out.println("===Unchecked userDefine Exception===");
+      CheckUnCheckedException unCheckedException = new CheckUnCheckedException();
+      unCheckedException.getUnChecked();
     }
 }

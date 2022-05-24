@@ -1,7 +1,7 @@
 package rajat.sample.strings;
 
 public class StringApp1 {
-    public static void main(String[] args) {
+    public void getStringAppication() {
         String str1= new String("Lipu");
         String str2="lipu";
         String str4= "dipu";
