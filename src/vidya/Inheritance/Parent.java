@@ -1,4 +1,4 @@
-package vidhya.Inheritance;
+package vidya.Inheritance;
 
 public class Parent {
    public String add = "hyd";

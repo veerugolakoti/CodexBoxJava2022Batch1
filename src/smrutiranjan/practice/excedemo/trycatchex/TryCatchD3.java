@@ -12,7 +12,7 @@ public class TryCatchD3 {
             System.out.println("array out of index exception:");
         }
         catch(Exception e){
-            System.out.println("main exception :");
+            System.out.println("main exception :"+e);
         }
         System.out.println("print rest of the code:");
     }

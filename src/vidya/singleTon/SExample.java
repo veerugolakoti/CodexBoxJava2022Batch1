@@ -1,4 +1,4 @@
-package vidhya.singleTon;
+package vidya.singleTon;
 
 public class SExample {
      static SExample single_instance ;
