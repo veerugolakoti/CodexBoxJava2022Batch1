@@ -1,4 +1,4 @@
-package jhansi.interface1;
+package jhansi;
 
 public interface InterfaceExample {
     final int a=10;
