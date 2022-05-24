@@ -1,7 +1,7 @@
 package rajat.sample.loops;
 
 public class WhileLoopsApplication {
-    public static void main(String[] args) {
+    public void getWhileLoop() {
         int empId=100;
         while( empId<150){
             System.out.println("rajat");

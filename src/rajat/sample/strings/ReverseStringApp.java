@@ -3,7 +3,7 @@ package rajat.sample.strings;
 import java.util.Scanner;
 
 public class ReverseStringApp {
-    public static void main(String[] args) {
+    public void getReverse() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string::");
         String strOriginal = sc.nextLine();

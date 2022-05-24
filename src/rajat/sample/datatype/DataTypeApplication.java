@@ -10,7 +10,7 @@ public class DataTypeApplication {
     char fName='R';
     boolean b=true;
 
-    public static void main(String[] args) {
+    public void getDataTypes() {
         DataTypeApplication dta= new DataTypeApplication();
         System.out.println("value of byte="+dta.a);
         System.out.println("StateCode="+dta.stateCode);
