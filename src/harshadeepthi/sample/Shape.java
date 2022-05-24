@@ -1,4 +1,4 @@
-package harshadeepthi.interfaceex;
+package harshadeepthi.sample;
 
 public interface Shape {
     void draw();
