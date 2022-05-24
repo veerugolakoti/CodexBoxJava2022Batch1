@@ -1,7 +1,7 @@
 package Shiva.FinalKeyword;
 
 public class FinalMethod {
-    final void finalMethod() {
+    public final void finalMethod() {
         System.out.println("This is final method");
     }
 }
