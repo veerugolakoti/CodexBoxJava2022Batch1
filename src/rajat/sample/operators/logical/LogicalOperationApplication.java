@@ -1,7 +1,7 @@
 package rajat.sample.operators.logical;
 
 public class LogicalOperationApplication {
-    public static void main(String[] args) {
+    public void getLogicalOperatur() {
         int math=86,phy=44,chem=69,bio=77,fullMark=400;
         int total=math+phy+chem+bio;
         System.out.println(total);

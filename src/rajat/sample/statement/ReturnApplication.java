@@ -4,7 +4,7 @@ public class ReturnApplication {
     public int sum(int num1,int num2){
         return num1+num2;
     }
-    public static void main(String[] args) {
+    public void getReturn(){
         ReturnApplication returnApplication = new ReturnApplication();
         int result=returnApplication.sum(24, 40);
         System.out.println(result);

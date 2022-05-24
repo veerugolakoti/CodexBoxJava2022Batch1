@@ -35,10 +35,5 @@ public class BreakApplication {
         }
         System.out.println(dayName);
     }
-    public static void main(String[] args) {
-        BreakApplication breakApplication = new BreakApplication();
-        breakApplication.searchDay();
 
-
-    }
 }
