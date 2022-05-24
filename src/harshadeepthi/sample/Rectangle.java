@@ -1,18 +1,16 @@
 package harshadeepthi.sample;
 
-import harshadeepthi.interfaceex.Shape;
-
-class Rectangle implements Shape {
-    int l;
-    int w;
-    Rectangle(int l,int w){
+public abstract class Rectangle implements Shape {
+    public int l;
+    public int w;
+    public Rectangle(int l,int w){
         this.l=l;
         this.w=w;
     }
     public void draw(){
         System.out.println("Rectangle has been draw");
     }
-    public int area(){
+    public int area(int l, int w){
         return l*w;
     }
 }

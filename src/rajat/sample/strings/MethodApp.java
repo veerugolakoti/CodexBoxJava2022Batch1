@@ -11,12 +11,5 @@ public class MethodApp {
         System.out.println(mul);
     }
 
-    public static void main(String[] args) {
-        MethodApp methodApp = new MethodApp();
-        System.out.println(methodApp.addition(12, 23));
-        multiplication(6, 8, 9);
-//        System.out.println(mul);
-//        System.out.println(multiplication(4,7,9));
-//    }
-    }
+
 }
