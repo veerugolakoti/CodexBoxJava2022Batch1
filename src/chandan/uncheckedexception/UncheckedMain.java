@@ -1,4 +1,4 @@
-package chandan.uncheckedexceptions;
+package chandan.uncheckedexception;
 
 public class UncheckedMain {
     public void uncheckedexception() {

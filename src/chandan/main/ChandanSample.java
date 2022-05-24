@@ -1,9 +1,6 @@
 package chandan.main;
 
-import Shiva.Interfaces.Main;
-import chandan.markerinterface.GroceryItems;
-import chandan.oopsconcepts.Abstraction1.MainLaptop;
-import chandan.uncheckedexceptions.UncheckedMain;
+import chandan.uncheckedexception.UncheckedMain;
 
 public class ChandanSample {
     public static void main(String[] args) {
