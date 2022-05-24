@@ -1,7 +1,5 @@
 package Sohail.sample.Interface;
-
-
-class Tiger implements Animal {
+public class Tiger implements Animal {
     public void sleep() {
         System.out.println("Zzz");
     }

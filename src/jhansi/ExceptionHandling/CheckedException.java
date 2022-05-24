@@ -1,4 +1,4 @@
-package jhansi.interface1.ExceptionHandling;
+package jhansi.ExceptionHandling;
 
 public class CheckedException {
     private String name = null;
