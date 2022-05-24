@@ -1,8 +1,8 @@
 package Dhivya.sample.singletone;
 public class SingletoneExample
 {
-    private static SingletoneExample st;
-    private SingletoneExample()
+    public static SingletoneExample st;
+    public SingletoneExample()
     {
         System.out.println("Hello Singleton");
     }
