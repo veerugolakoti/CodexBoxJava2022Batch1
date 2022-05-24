@@ -3,6 +3,7 @@ package rehana.sample.main;
 import rehana.sample.Stringimmutability.ImmutabilityExample;
 import rehana.sample.cloneabale.Employee;
 import rehana.sample.exceptionhandling.ArrayIndexOutOfBound;
+import rehana.sample.exceptionhandling.NumberFormatExceptionClass;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -21,11 +22,13 @@ public class Main {
         NullPointerException np = new NullPointerException();
        System.out.println("nullpointerexception");*/
 
-        ImmutabilityExample i = new ImmutabilityExample("rehana",19,"thursday");
+       /* ImmutabilityExample i = new ImmutabilityExample("rehana",19,"thursday");
         System.out.println(i.getName());
         System.out.println(i.getDate());
-        System.out.println(i.getDay());
+        System.out.println(i.getDay());*/
 
+        NumberFormatExceptionClass n = new NumberFormatExceptionClass();
+        n.getNumberFormatException();
 
     }
 }
