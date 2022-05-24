@@ -1,7 +1,7 @@
 package Shiva.Abstraction;
 
 public class Banana extends Fruits{
-    String nutrition() {
+    public String nutrition() {
         return "The banana has 25g of protien";
     }
 }
