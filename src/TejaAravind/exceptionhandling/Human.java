@@ -1,6 +1,6 @@
 package TejaAravind.exceptionhandling;
 
-public class Human  {
+public class Human implements Cloneable  {
     private String name;
     private String job;
 
@@ -28,7 +28,6 @@ public class Human  {
 //    }
     public Human getClone() throws CloneNotSupportedException {
         return (Human) clone();
-
     }
     public void getUncheckedException(){
         int[] arr = {1,2,3,4};
