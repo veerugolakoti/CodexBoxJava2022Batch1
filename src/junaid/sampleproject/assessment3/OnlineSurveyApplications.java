@@ -6,7 +6,7 @@ public class OnlineSurveyApplications
     {
         System.out.println("Welcome to Swiggy Online Survey");
 
-       GetSurvey getSurvey = new GetSurvey();
+        GetSurvey getSurvey = new GetSurvey();
 
         getSurvey.getAnswer();
 
