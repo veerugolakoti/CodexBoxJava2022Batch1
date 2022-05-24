@@ -1,4 +1,4 @@
-package junaid.sampleproject.assessment3;
+package junaid.sampleproject.Assessment3;
 
 import java.util.Scanner;
 
