@@ -436,8 +436,8 @@ public class MainClassOops {
         }catch (UserCheckedException uc){
             System.out.println("Provide non zero integer..");
         }*/
-      /*  System.out.println("===Unchecked userDefine Exception===");
+        System.out.println("===Unchecked userDefine Exception===");
       CheckUnCheckedException unCheckedException = new CheckUnCheckedException();
-      unCheckedException.getUnChecked();*/
+      unCheckedException.getUnChecked();
     }
 }
