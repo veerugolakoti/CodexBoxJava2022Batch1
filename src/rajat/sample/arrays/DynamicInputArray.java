@@ -1,6 +1,6 @@
 package rajat.sample.arrays;
 
-public class PracticeArray {
+public class DynamicInputArray {
     public void dynamicInput() {
         int arr[];
         arr = new int[10];
@@ -11,10 +11,8 @@ public class PracticeArray {
     }
 
 
-        public static void main(String[] args) {
+        public void getManualInput() {
 
-        PracticeArray parray=new PracticeArray();
-        parray.dynamicInput();
 
         int[] countArray = new int[5];
         countArray[0]=10;

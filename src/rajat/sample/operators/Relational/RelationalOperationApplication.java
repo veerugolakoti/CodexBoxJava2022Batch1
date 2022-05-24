@@ -2,7 +2,7 @@ package rajat.sample.operators.Relational;
 
 public class RelationalOperationApplication {
 
-    public static void main(String[] args) {
+    public void getRelationalOperator() {
         int num1=10 , num2=30;
         if (num1==num2){
             System.out.println("Numbers are equal");

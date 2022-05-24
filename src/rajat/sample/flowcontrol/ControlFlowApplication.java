@@ -5,7 +5,7 @@ package rajat.sample.flowcontrol;
 
 public class ControlFlowApplication {
 
-    public static void main(String[] args) {
+    public void getFlowControl() {
         //if
         int sId=202252;
         if(sId==202253){

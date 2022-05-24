@@ -1,7 +1,7 @@
 package rajat.sample.loops;
 
 public class ForloopsApplication {
-    public static void main(String[] args) {
+    public void getForLoop() {
         for(int i=1;i<=5;i++){
             for (int j=1;j<=i;j++){
                 System.out.print(j);
