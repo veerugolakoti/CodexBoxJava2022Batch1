@@ -1,8 +1,11 @@
 package Abhilash.exceptionhandling;
 
 public class CustomExceptionExample extends Exception {
-    //String message = null;
-    CustomExceptionExample() {
-        super();
+    String message = "djbf";
+    public CustomExceptionExample() {
     }
+     public CustomExceptionExample(String message) {
+        super(message);
+    }
+
 }

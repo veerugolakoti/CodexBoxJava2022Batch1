@@ -1,4 +1,4 @@
-package Abhilash.interfaceEx;
+package Abhilash.interfaceExamples;
 
 
 public class Main {
