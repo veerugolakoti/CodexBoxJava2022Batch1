@@ -1,7 +1,7 @@
 package Shiva.Abstraction;
 
 public class Grapes extends Fruits {
-    String nutrition() {
+    public String nutrition() {
         return "The grapes has 18g of calcium";
     }
 }
