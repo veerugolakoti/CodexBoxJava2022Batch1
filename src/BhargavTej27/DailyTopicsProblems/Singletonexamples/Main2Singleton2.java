@@ -1,6 +1,6 @@
 package BhargavTej27.DailyTopicsProblems.Singletonexamples;
 
-public class Main2 {
+public class Main2Singleton2 {
     public static void main(String[] args) {
         SingleTon2 ranjan = SingleTon2.getcompany();
         SingleTon2 bargav = SingleTon2.getcompany();

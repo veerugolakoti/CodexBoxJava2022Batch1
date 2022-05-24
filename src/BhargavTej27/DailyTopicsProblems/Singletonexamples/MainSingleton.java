@@ -1,6 +1,6 @@
 package BhargavTej27.DailyTopicsProblems.Singletonexamples;
 
-public class Main {
+public class MainSingleton {
     public static void main(String[] args) //hashCode method
     {
         MySingleTon x = MySingleTon.shiva();
