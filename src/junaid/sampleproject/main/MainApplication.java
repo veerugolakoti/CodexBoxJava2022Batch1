@@ -1,9 +1,8 @@
 package junaid.sampleproject.main;
 
-import junaid.sampleproject.interfaces.InterfacesImpl;
 import junaid.sampleproject.taggedinterfaces.TaggedInterfaces;
 
-public class MainInterfaces
+public class MainApplication
 {
     public static void main(String[] args)
     {
