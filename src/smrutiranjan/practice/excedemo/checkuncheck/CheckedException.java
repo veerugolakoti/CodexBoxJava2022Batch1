@@ -20,7 +20,7 @@ public class CheckedException {
             BufferedReader br = new BufferedReader(fr);
 
         }catch(FileNotFoundException e){
-        System.out.println("File Not Found Exception in my prog :");
+        System.out.println("File Not Found Exception is handled by try catch :");
 
         }
     }

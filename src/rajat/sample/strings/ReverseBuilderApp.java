@@ -5,7 +5,7 @@ import javafx.util.Builder;
 import java.util.Scanner;
 
 public class ReverseBuilderApp {
-    public static void main(String[] args) {
+    public void getReverseUsingBuilder() {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter a String");
         String str=sc.nextLine();

@@ -8,6 +8,7 @@ import Shiva.Constructor.ConstructorEx;
 import Shiva.Encapsulation.Student;
 import Shiva.ExceptionHandling.ExceptionExample;
 import Shiva.ExceptionHandling.FinallyClause.FinallyExample;
+import Shiva.ExceptionHandling.UserDefinedException.ArthmeticEx;
 import Shiva.FinalKeyword.FinalClassEx;
 import Shiva.FinalKeyword.FinalMethod;
 import Shiva.FinalKeyword.FinalVariables;
@@ -100,5 +101,11 @@ public class MainApp {
         System.out.println(fv.getNum2());
         FinalMethod fm = new FinalMethod();
         fm.finalMethod();
+
+        System.out.println();
+
+        System.out.println("---User defined exception---");
+        ArthmeticEx aex = new ArthmeticEx();
+        aex.arthmeticExample(12, 0);
     }
 }
