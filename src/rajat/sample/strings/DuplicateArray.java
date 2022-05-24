@@ -9,14 +9,14 @@ public class DuplicateArray {
             for (int j=i+1;j< arr.length;j++){
 
                 if(arr[i]==arr[j]){
-                    count++;
-//                    int k =arr[i];
-//                    System.out.println("Duplicate"+arr[j]);
-//                    break;
+//                    count++;
+                    int k =arr[i];
+                    System.out.println("Duplicate"+arr[j]);
+                    break;
                 }
 
             }
-            System.out.println(count);
+//            System.out.println(count);
 //            if(count>0){
 //                System.out.println("Duplicate"+arr[i]);
             }
