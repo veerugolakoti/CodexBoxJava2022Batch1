@@ -37,8 +37,8 @@ public class MainApplicaton {
        /* DuplicateArray duplicateArray = new DuplicateArray();
         duplicateArray.m2();*/
 //      Collection Concept of Arraylist
-        Car car= new Car();
-        car.m4();
+     /*   Car car= new Car();
+        car.m4();*/
         }
     }
 
