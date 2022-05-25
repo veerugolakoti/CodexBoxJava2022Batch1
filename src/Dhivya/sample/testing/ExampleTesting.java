@@ -9,7 +9,7 @@ public class ExampleTesting {
 
     public void test(){
         Sum sum=new Sum();
-        Assert.assertEquals(30,sum.sum(20,30));
+        Assert.assertEquals(40,sum.sum(10,30));
     }
 
 
