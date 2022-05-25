@@ -1,12 +1,7 @@
 package Ravaliproject.main;
 
-import Ravaliproject.exceptionhandling.checkedexception.CheckedExceptionExmple;
 import Ravaliproject.exceptionhandling.uncheckedexception.ArithmaticException;
 import Ravaliproject.exceptionhandling.uncheckedexception.NullpointerException;
-//mport Ravaliproject.markerinterface.MarkerInterface;
-import Ravaliproject.interfaces.Reema;
-
-import java.util.Scanner;
 
 public class MainMethod {
     public static void main(String[] args) throws CloneNotSupportedException {

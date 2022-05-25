@@ -17,7 +17,7 @@ public class ArrayIndex {
                     throw new ArrayIndexOutOfBoundsException();
 
                 }
-               // array[101] = 56;
+              // array[101] = 56;
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Array Index out of bound exception");
             }

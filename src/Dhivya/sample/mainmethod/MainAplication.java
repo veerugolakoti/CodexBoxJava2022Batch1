@@ -1,11 +1,15 @@
 package Dhivya.sample.mainmethod;
 
+import Dhivya.sample.collections.GamesList;
 import Dhivya.sample.exceptionhandling.ArrayIndex;
 import Dhivya.sample.exceptionhandling.DivyaException;
 import Dhivya.sample.exceptionhandling.IndexOutOfBound;
 import Dhivya.sample.impls.TaggedInterface;
 import Dhivya.sample.singletone.SingletoneExample;
 import sangamesh.exceptionhandling.mainexception;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainAplication {
     public static void main(String[] args) {
@@ -59,8 +63,37 @@ public class MainAplication {
             System.out.println("Catch");
             System.out.println(e.getMessage());
         }*/
-//Array Index Out of Bound*************************************
-        ArrayIndex arrayIndex=new ArrayIndex();
-        arrayIndex.getArray();
+//Array Index Out of Bound**************************************************
+        /*ArrayIndex arrayIndex=new ArrayIndex();
+        arrayIndex.getArray();*/
+
+//list
+        GamesList gamesList=new GamesList();
+
+        GamesList gamesList1=new GamesList();
+        gamesList1.setGamename("Throw Ball");
+        gamesList1.setNo(1);
+        GamesList gamesList2=new GamesList();
+        gamesList2.setGamename("Kabbadi");
+        gamesList2.setNo(2);
+        GamesList gamesList3=new GamesList();
+        gamesList3.setGamename("Volly Ball");
+        gamesList3.setNo(3);
+        List<GamesList>list=new ArrayList();
+        list.add(gamesList1);
+        list.add(gamesList2);
+        list.add(gamesList3);
+        for (GamesList ga: list) {
+
+            System.out.println("game name " + ga.getGamename());
+            System.out.println("game no " + ga.getNo());
+            System.out.println("**************************************");
+
+
+        }
+
+
+
+
     }
 }
