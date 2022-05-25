@@ -4,12 +4,22 @@ import java.io.File;
 import java.io.FileReader;
 
 public class MainException {
-    public static void main(String[] args) throws  CloneNotSupportedException {
+    public static void main(String[] args) throws  CloneNotSupportedException,ArithmeticException {
         Human human1 = new Human("sam", "social worker");
         System.out.println(human1.getName());
         System.out.println(human1.getJob());
 
-        Human human2 = human1.getClone();
+
+        try{
+            human1.getUncheckedException();
+
+        }catch (ArithmeticException e){
+            System.out.println("dfghjkl");
+        }catch (Exception e){
+            System.out.println(e.toString());
+        }
+
+
 
 
 //        Human human2 = null;
@@ -20,12 +30,12 @@ public class MainException {
 //        }
 
 
-        try {
-            System.out.println(human2.getName());
-            System.out.println(human2.getJob());
-        } catch (Exception e) {
-            System.out.println("sasi exception");
-        }
+//        try {
+//            System.out.println(human2.getName());
+//            System.out.println(human2.getJob());
+//        } catch (Exception e) {
+//            System.out.println("sasi exception");
+//        }
 
 
 //        Human human2 = human1.getClone();
@@ -107,12 +117,12 @@ public class MainException {
 //        }
 //        return avg;
 //    }
-        Human human3 = new Human("sangam", "coder");
-        try {
-            human3.getUncheckedException();
-        } catch (TejaUncheckedException e) {
-            System.out.println(e.getMessage());
-        }
+//        Human human3 = new Human("sangam", "coder");
+//        try {
+//            human3.getUncheckedException();
+//        } catch (TejaUncheckedException e) {
+//            System.out.println(e.getMessage());
+//        }
 
     }
 

@@ -29,16 +29,22 @@ public class Human implements Cloneable  {
     public Human getClone() throws CloneNotSupportedException {
         return (Human) clone();
     }
-    public void getUncheckedException(){
+    public void getUncheckedException() throws ArithmeticException{
         int[] arr = {1,2,3,4};
         try{
             arr[5] = 565;
 
         }catch (Exception e){
+            System.out.println(e.toString());
             throw new TejaUncheckedException("Teja exception");
 
-        }
+        }finally {
 
+
+            int a = 10;
+            a = a / 0;
+            System.out.println(a);
+        }
     }
 
 
