@@ -20,7 +20,7 @@ public class HelloWorldApplication {
             Long value = Long.parseLong(str);
             throw new IllegalArgumentException("intentional exception");
         } catch (NumberFormatException numberFormatException) {
-            System.out.println("Number format exceptin ");
+            System.out.println("Number format exception ");
         } catch (Exception exception) {
             System.out.println("Exception occur");
         }
