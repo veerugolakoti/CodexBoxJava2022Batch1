@@ -1,8 +1,11 @@
 package Dhivya.sample.mainmethod;
 
+import Dhivya.sample.exceptionhandling.ArrayIndex;
+import Dhivya.sample.exceptionhandling.DivyaException;
 import Dhivya.sample.exceptionhandling.IndexOutOfBound;
 import Dhivya.sample.impls.TaggedInterface;
 import Dhivya.sample.singletone.SingletoneExample;
+import sangamesh.exceptionhandling.mainexception;
 
 public class MainAplication {
     public static void main(String[] args) {
@@ -50,6 +53,14 @@ public class MainAplication {
         }*/
 
 
-
+       /* try {
+            throw new DivyaException("Runtime Exception");
+        }catch (DivyaException e){
+            System.out.println("Catch");
+            System.out.println(e.getMessage());
+        }*/
+//Array Index Out of Bound*************************************
+        ArrayIndex arrayIndex=new ArrayIndex();
+        arrayIndex.getArray();
     }
 }

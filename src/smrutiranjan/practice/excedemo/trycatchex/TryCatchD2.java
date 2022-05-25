@@ -1,7 +1,7 @@
 package smrutiranjan.practice.excedemo.trycatchex;
 
 public class TryCatchD2  {
-    public static void main(String[] args){
+    void tryCatchd2(){
         try{
             int i[] = new int[5];
             System.out.println(i[10]);

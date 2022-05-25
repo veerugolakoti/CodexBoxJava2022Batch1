@@ -3,7 +3,7 @@ package Abhilash.inheritanceExample;
 import java.util.Scanner;
 
 public class PatternExample {
-    public static void main(String[] args) {
+    public void pattern() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i=0;i<n;i++){
