@@ -1,7 +1,7 @@
 package smrutiranjan.practice.excedemo.checkuncheck;
 
 public class UsingFinally {
-    void finallyException() {
+    public void finallyException() {
      //provide int[] i to access the finally clause
         int[] i = new int[0];
         try {

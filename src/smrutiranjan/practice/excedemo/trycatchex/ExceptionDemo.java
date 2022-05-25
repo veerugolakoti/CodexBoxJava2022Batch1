@@ -1,7 +1,7 @@
 package smrutiranjan.practice.excedemo.trycatchex;
 
 public class ExceptionDemo {
-    void exceptionDemo() {
+    public void exceptionDemo() {
         try{
             int i = 50/0;
         }
