@@ -4,6 +4,7 @@ import Shiva.Abstraction.Apple;
 import Shiva.Abstraction.Banana;
 import Shiva.Abstraction.Fruits;
 import Shiva.Abstraction.Grapes;
+import Shiva.CollectionsProgram.StudentDetails;
 import Shiva.Constructor.ConstructorEx;
 import Shiva.Encapsulation.Student;
 import Shiva.ExceptionHandling.ExceptionExample;
@@ -18,6 +19,9 @@ import Shiva.Interfaces.Car;
 import Shiva.Interfaces.Vehicle;
 import Shiva.MarkInterface.MarkerExample;
 import Shiva.MethodOverloading.GreaterNum;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainApp {
     public static void main(String[] args) {
@@ -107,5 +111,36 @@ public class MainApp {
         System.out.println("---User defined exception---");
         ArthmeticEx aex = new ArthmeticEx();
         aex.arthmeticExample(12, 0);
+
+        StudentDetails stdetails1 = new StudentDetails();
+        stdetails1.setName("Amrit");
+        stdetails1.setRno(11);
+        stdetails1.setSubject("Maths");
+        stdetails1.setGrade(8.3);
+
+        StudentDetails stdetails2 = new StudentDetails();
+        stdetails2.setName("Neera");
+        stdetails2.setRno(22);
+        stdetails2.setSubject("Physics");
+        stdetails2.setGrade(8.3);
+
+        StudentDetails stdetails3 = new StudentDetails();
+        stdetails3.setName("Jeera");
+        stdetails3.setRno(33);
+        stdetails3.setSubject("Chemistry");
+        stdetails3.setGrade(9.2);
+
+        List<StudentDetails> stlist = new ArrayList<>();
+        stlist.add(stdetails1);
+        stlist.add(stdetails2);
+        stlist.add(stdetails3);
+
+        for (StudentDetails sdetails : stlist) {
+            System.out.println("Student name: " + sdetails.getName());
+            System.out.println("Student rno: " + sdetails.getRno());
+            System.out.println("Student subject " + sdetails.getSubject());
+            System.out.println("Student grade: " + sdetails.getGrade());
+            System.out.println("********************************************");
+        }
     }
 }
