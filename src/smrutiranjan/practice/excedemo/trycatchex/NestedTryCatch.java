@@ -1,24 +1,25 @@
 package smrutiranjan.practice.excedemo.trycatchex;
 
 public class NestedTryCatch {
-    public static void main(String[] args) {
-        try{
-            try{
-                int i =30/0;
-                System.out.println("arithmatic exception:"+i);
-            }catch(ArithmeticException e){
+
+        void nestedTryCatch () {
+        try {
+            try {
+                int i = 30 / 0;
+                System.out.println("arithmatic exception:" + i);
+            } catch (ArithmeticException e) {
                 System.out.println(e);
             }
-            try{
+            try {
                 int i[] = new int[5];
                 i[5] = 4;
-            }catch(ArrayIndexOutOfBoundsException e){
+            } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println(e);
             }
             System.out.println("others exception");
-        }catch(Exception e){
+        } catch (Exception e) {
             System.out.println("handle exception");
         }
         System.out.println("normal flow");
     }
-}
+    }
