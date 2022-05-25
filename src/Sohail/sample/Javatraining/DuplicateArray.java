@@ -10,8 +10,6 @@ public class DuplicateArray {
                             System.out.println("The Duplicate Element are : " + arr[i]);
                         }
                     break;
-
-
                 }
             }
         }
