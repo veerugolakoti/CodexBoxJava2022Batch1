@@ -1,13 +1,18 @@
 package Nagarjuna.MainExcution;
 
 import Nagarjuna.ExceptionHandling.SalaryException;
+import Nagarjuna.JunitTesting.JUnitMultiplication;
 import Nagarjuna.collections.StudentList;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
+/*
 public class MainMethod {
     public static void main(String[] args) {
+*/
        /* System.out.println("----------user defined exception----------");
         try {
             int id[] = {1, 2, 3, 4, 5};
@@ -25,6 +30,7 @@ public class MainMethod {
         }
     }*/
 //        collections example 25-05-22.
+/*
 List<StudentList> list=new ArrayList();
 StudentList sdl1=new StudentList();
 sdl1.setId(1);
@@ -49,6 +55,17 @@ list.add(sdl3);
             System.out.println("-----------------------------------------");
 
         }
+    }
+}
+
+*/
+
+
+public class MainMethod {
+    @Test
+   public void testMultiplication () {
+        JUnitMultiplication jnm=new JUnitMultiplication();
+        Assert.assertEquals(200,JUnitMultiplication.mul(10,20));
     }
 }
 
