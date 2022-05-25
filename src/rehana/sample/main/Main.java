@@ -1,6 +1,7 @@
 package rehana.sample.main;
 
 import rehana.sample.exceptionhandling.NumberFormatExceptionClass;
+import rehana.sample.exceptionhandling.RehanaException;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -24,8 +25,18 @@ public class Main {
         System.out.println(i.getDate());
         System.out.println(i.getDay());*/
 
-        NumberFormatExceptionClass n = new NumberFormatExceptionClass();
-        n.getNumberFormatException();
+        /*NumberFormatExceptionClass n = new NumberFormatExceptionClass();
+        n.getNumberFormatException();*/
+
+        //CUSTOMISED EXCEPTION
+        try{
+            throw  new RehanaException("abc");
+
+        }
+        catch(RehanaException e){
+            System.out.println(e.getMessage());
+
+        }
 
     }
 }
