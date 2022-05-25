@@ -1,8 +1,5 @@
 package rehana.sample.main;
 
-import rehana.sample.Stringimmutability.ImmutabilityExample;
-import rehana.sample.cloneabale.Employee;
-import rehana.sample.exceptionhandling.ArrayIndexOutOfBound;
 import rehana.sample.exceptionhandling.NumberFormatExceptionClass;
 
 public class Main {
