@@ -1,5 +1,6 @@
 package Dhivya.sample.mainmethod;
 
+import Dhivya.sample.exceptionhandling.ArrayIndex;
 import Dhivya.sample.exceptionhandling.DivyaException;
 import Dhivya.sample.exceptionhandling.IndexOutOfBound;
 import Dhivya.sample.impls.TaggedInterface;
@@ -52,12 +53,14 @@ public class MainAplication {
         }*/
 
 
-        try {
+       /* try {
             throw new DivyaException("Runtime Exception");
         }catch (DivyaException e){
             System.out.println("Catch");
             System.out.println(e.getMessage());
-        }
-
+        }*/
+//Array Index Out of Bound*************************************
+        ArrayIndex arrayIndex=new ArrayIndex();
+        arrayIndex.getArray();
     }
 }
