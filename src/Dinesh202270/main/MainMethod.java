@@ -1,7 +1,8 @@
-package Dinesh202270;
+package Dinesh202270.main;
 
+import Dinesh202270.abstraction.Abstraction;
+import Dinesh202270.abstraction.NewClass;
 import Dinesh202270.exceptions.CustomerClass;
-import Dinesh202270.exceptions.Example;
 import Dinesh202270.taggedinterface.CheckedException;
 
 public class MainMethod {
