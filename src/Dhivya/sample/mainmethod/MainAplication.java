@@ -69,7 +69,7 @@ public class MainAplication {
 
 //list
         GamesList gamesList=new GamesList();
-
+        List<GamesList>list=new ArrayList();
         GamesList gamesList1=new GamesList();
         gamesList1.setGamename("Throw Ball");
         gamesList1.setNo(1);
@@ -79,12 +79,10 @@ public class MainAplication {
         GamesList gamesList3=new GamesList();
         gamesList3.setGamename("Volly Ball");
         gamesList3.setNo(3);
-        List<GamesList>list=new ArrayList();
         list.add(gamesList1);
         list.add(gamesList2);
         list.add(gamesList3);
         for (GamesList ga: list) {
-
             System.out.println("game name " + ga.getGamename());
             System.out.println("game no " + ga.getNo());
             System.out.println("**************************************");
