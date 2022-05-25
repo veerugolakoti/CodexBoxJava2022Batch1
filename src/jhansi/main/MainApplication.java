@@ -28,7 +28,7 @@ public class MainApplication {
         //System.out.println("==============marker interface");
 
 
-      /*  CheckedExample ckm = new CheckedExample();
+       /*CheckedExample ckm = new CheckedExample();
         ckm.method();*/
        // System.out.println("==========Exception Handling");
 
