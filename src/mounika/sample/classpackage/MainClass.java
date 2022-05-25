@@ -1,17 +1,15 @@
-package mounika.sample.mainpackage;
+package mounika.sample.classpackage;
 
-import mounika.sample.TrycatchFinally;
-import mounika.sample.carExampleCloneable;
-import mounika.sample.exceptionhandling.CheckedException;
-import mounika.sample.juice.TypesJuice;
-import mounika.sample.mianmethod.MainApplication;
+import mounika.sample.juice.parent;
+
+import java.util.ArrayList;
 
 public class MainClass {
 
 
     public static void main(String[] args) {
 
-        carExampleCloneable obj = new carExampleCloneable();
+        /*carExampleCloneable obj = new carExampleCloneable();
         try {
             carExampleCloneable obj2 = new carExampleCloneable();
 
@@ -40,8 +38,31 @@ public class MainClass {
         } catch (Exception e) {
             System.out.println(" something wrong");
             System.out.println("uiytre");
+            }*/
+
+         parent method=new parent();
+         parent method1=new parent();
+         method1.setBottelcolour("yellow");
+         method1.setBottelprice("120");
+
+         parent method2=new parent();
+         method2.setBottelcolour("red");
+         method2.setBottelprice("100");
+
+        ArrayList<parent>list=new ArrayList();
+         list.add(method1);
+         list.add(method2);
+
+         for (parent m:list){
+             System.out.println("method1 :"+ m.getBottelcolour());
+             System.out.println("method2 :"+ m.getBottelprice());
+             System.out.println("***********************************");
+         }
+
         }
-    }}
+
+        }
+
 
 
 
