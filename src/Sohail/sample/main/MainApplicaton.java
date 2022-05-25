@@ -1,11 +1,9 @@
 package Sohail.sample.main;
 
-import Sohail.sample.Interface.Tiger;
-import Sohail.sample.Javatraining.DuplicateArray;
-import Sohail.sample.exceptionhandling.CheckedException;
-import Sohail.sample.exceptionhandling.MyException;
-import Sohail.sample.exceptionhandling.UncheckedException;
-import Sohail.sample.singleTon.SingleTonClass;
+import Sohail.sample.arraylist.Car;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainApplicaton {
     public static void main(String[] args) {
@@ -36,9 +34,11 @@ public class MainApplicaton {
         System.out.println(X1);
         System.out.println(x2);*/
 //      Duplicate Array
-        DuplicateArray duplicateArray = new DuplicateArray();
-        duplicateArray.m2();
-
-
+       /* DuplicateArray duplicateArray = new DuplicateArray();
+        duplicateArray.m2();*/
+//      Collection Concept of Arraylist
+        Car car= new Car();
+        car.m4();
+        }
     }
-}
+
