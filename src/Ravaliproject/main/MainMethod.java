@@ -3,7 +3,7 @@ package Ravaliproject.main;
 import Ravaliproject.exceptionhandling.checkedexception.CheckedExceptionExmple;
 import Ravaliproject.exceptionhandling.uncheckedexception.ArithmaticException;
 import Ravaliproject.exceptionhandling.uncheckedexception.NullpointerException;
-import Ravaliproject.markerinterface.MarkerInterface;
+//mport Ravaliproject.markerinterface.MarkerInterface;
 import Ravaliproject.interfaces.Reema;
 
 import java.util.Scanner;
