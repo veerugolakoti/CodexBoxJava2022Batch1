@@ -4,10 +4,7 @@ import java.util.concurrent.Callable;
 
 public class CheckedException implements Cloneable{
 
-    public static void main(String[] args) {
-        CheckedException checkedException = new CheckedException();
-        System.out.println(checkedException.exception());
-    }
+
 
     public  CheckedException exception()
     {

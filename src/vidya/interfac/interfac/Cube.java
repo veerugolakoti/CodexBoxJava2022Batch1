@@ -1,6 +1,6 @@
 package vidya.interfac.interfac;
 
-class Cube implements Shape {
+public class Cube implements Shape {
 @Override
     public  void length() {
         System.out.println("1cm");
