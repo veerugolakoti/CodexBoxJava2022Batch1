@@ -1,6 +1,8 @@
 package Ravaliproject.interfaces;
 
-public class Reema  implements Employee{
+import Ravaliproject.collections.StudentList;
+
+public  class Reema  implements Employee{
     @Override
     public String name() {
         return "Lucky";
@@ -14,5 +16,10 @@ public class Reema  implements Employee{
     @Override
     public String salary() {
         return "54000";
+    }
+
+    @Override
+    public StudentList setName(String s) {
+        return null;
     }
 }
