@@ -2,17 +2,19 @@ package Nagarjuna.MainExcution;
 
 import Nagarjuna.ExceptionHandling.SalaryException;
 import Nagarjuna.JunitTesting.JUnitMultiplication;
+import Nagarjuna.collections.DuplicateValue;
 import Nagarjuna.collections.StudentList;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
-/*
 public class MainMethod {
     public static void main(String[] args) {
-*/
+
        /* System.out.println("----------user defined exception----------");
         try {
             int id[] = {1, 2, 3, 4, 5};
@@ -31,7 +33,7 @@ public class MainMethod {
     }*/
 //        collections example 25-05-22.
 /*
-List<StudentList> list=new ArrayList();
+List<StudentList> values=new ArrayList();
 StudentList sdl1=new StudentList();
 sdl1.setId(1);
 sdl1.setStdName("nag");
@@ -44,11 +46,11 @@ StudentList sdl3=new StudentList();
 sdl3.setId(3);
 sdl3.setStdName("ravi");
 sdl3.setClgName("svist");
-list.add(sdl1);
-list.add(sdl2);
-list.add(sdl3);
+values.add(sdl1);
+values.add(sdl2);
+values.add(sdl3);
 
-       for (StudentList studentList:list) {
+       for (StudentList studentList:values) {
             System.out.println("std id :"+studentList.getId());
             System.out.println("student name : "+studentList.getStdName());
             System.out.println("student clg name : "+studentList.getClgName());
@@ -61,11 +63,30 @@ list.add(sdl3);
 */
 
 
-public class MainMethod {
+/*public class MainMethod {
     @Test
    public void testMultiplication () {
-        JUnitMultiplication jnm=new JUnitMultiplication();
+//        JUnitMultiplication jnm=new JUnitMultiplication();
         Assert.assertEquals(200,JUnitMultiplication.mul(10,20));
+
+    }
+}*/
+
+        DuplicateValue dv=new DuplicateValue();
+        dv.duplicatevalues();
+
+
+
+
+//        System.out.println("required value is " + tempvalue + "duplicated value is " + count);
     }
 }
+
+
+
+
+
+//        System.out.println("duplicated value is "+count);
+
+
 
