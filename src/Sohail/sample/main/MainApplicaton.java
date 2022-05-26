@@ -1,6 +1,7 @@
 package Sohail.sample.main;
 
 import Sohail.sample.arraylist.Car;
+import Sohail.sample.arraylist.Duplicate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +40,9 @@ public class MainApplicaton {
 //      Collection Concept of Arraylist
      /*   Car car= new Car();
         car.m4();*/
+//        Collection
+        Duplicate duplicate = new Duplicate();
+        duplicate.m();
         }
     }
 
