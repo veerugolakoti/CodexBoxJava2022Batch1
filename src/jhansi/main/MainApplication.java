@@ -68,8 +68,7 @@ public class MainApplication {
             System.out.println("Amount:" + TicketDetails.getAmount());
             System.out.println("Adress:" + TicketDetails.getAdress());//
             */
-
-            ListOfNames  lsn=new ListOfNames();
+        ListOfNames  lsn=new ListOfNames();
         lsn.method();
 
 

@@ -11,7 +11,7 @@ public class ListOfNames {
         arraylist.add("jhansi");
         arraylist.add("renuka");
         arraylist.add("swathi");
-        arraylist.add("harsha");
+        arraylist.add("swathi");
         arraylist.add("akshi");
         arraylist.add("ravali");
         arraylist.add("vidya");
@@ -21,6 +21,7 @@ public class ListOfNames {
 
         Integer duplicatecount = 1;
         String duplicatename = null;
+        List <String> ls=new ArrayList<>();
         List<Integer> lst=new ArrayList<>();
 
         for (int i = 0; i < arraylist.size(); i++) {
@@ -28,7 +29,8 @@ public class ListOfNames {
                 if(arraylist.get(i).equalsIgnoreCase(arraylist.get(j))) {
 //                    System.out.println(arraylist.get(i));
                     duplicatecount++;
-                    duplicatename= arraylist.get(j);
+                    if (! ls.contains(arraylist.get(i)))
+                        System.out.println(arraylist.get(j));
                     break;
                 }
 
@@ -36,7 +38,8 @@ public class ListOfNames {
 
             }
         }
-        System.out.println(duplicatename+ "is duplicated" + duplicatecount +"times");
+       // System.out.println(+ "is duplicated" + duplicatecount +"times");
+
     }
 
 
