@@ -11,4 +11,11 @@ public class TestCases {
         Assert.assertEquals(52, application.sum(12,30));
 
     }
+    public float getAdd(float a,float b){
+        return a+b;
+    }
+    @Test
+    public void addition(){
+        Assert.assertEquals(98.7,getAdd(34.3f,65.4f));
+    }
 }
