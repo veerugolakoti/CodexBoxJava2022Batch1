@@ -5,10 +5,10 @@ public class Singleton1 {
     private Singleton1(){
         System.out.println("singleton");
     }
-      public static Singleton1 getSingleton(){
-         if (singleton==null){
-              singleton = new Singleton1();
-         }
-          return singleton;
+    public static Singleton1 getSingleton(){
+        if (singleton==null){
+            singleton = new Singleton1();
+        }
+        return singleton;
     }
 }

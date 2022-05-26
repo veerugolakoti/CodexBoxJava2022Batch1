@@ -1,15 +1,13 @@
 package Vamshi.sample.main;
 
-import TejaAravind.singleton.Singleton;
-import Vamshi.sample.cloneable.Truck;
-import Vamshi.sample.exceptionalhandling.CheckUserException;
-import Vamshi.sample.exceptionalhandling.Employee;
-import Vamshi.sample.interfaces.Benelli;
-import Vamshi.sample.interfaces.Bike;
-import Vamshi.sample.interfaces.Ducati;
-import Vamshi.sample.singleton.Singleton1;
+import Vamshi.sample.listexample.Car;
+import Vamshi.sample.listexample.CollegeStudent;
+import Vamshi.sample.listexample.Employee;
 
-public class Main {
+import java.util.ArrayList;
+import java.util.List;
+
+public class MainApplication {
    /* public static void main(String[] args) {
         // singleton code
     Singleton1 singleton2 = Singleton1.getSingleton();
@@ -60,15 +58,35 @@ public class Main {
                }
            }
        }*/
-           public static void main(String[] args) {
+  /*         public static void main(String[] args) {
                //Unchecked Exception
                Employee emp = new Employee();
                emp.employee();
                //System.out.println(emp.);
 
 }
+*/
+  /*          public static void main(String[] args) {
+                Car BMW4 = new Car();
+                Integer.parseInt(BMW4.setEngine("v6"));
+                BMW4.setHorsepower("375kw");
+                BMW4.setSpeed(400);
+                List<Car> list= new ArrayList<>();
+                list.add(BMW4);
+                for(Car BMW :list)
+                System.out.println(BMW.getEngine());
 
+}*/
+
+    public static void main(String[] args) {
+ /*       Employee employee = new Employee();
+        employee.TestEmployeeList();
+
+    }
+
+}*/
+        CollegeStudent student = new CollegeStudent();
+        student.testExample1();
+
+    }
 }
-
-
-
