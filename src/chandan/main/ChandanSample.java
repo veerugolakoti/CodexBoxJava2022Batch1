@@ -1,6 +1,6 @@
 package chandan.main;
 
-import chandan.uncheckedexception.UncheckedMain;
+import chandan.uncheckedexception.Duplicateelements;
 
 public class ChandanSample {
     public static void main(String[] args) {
@@ -11,11 +11,14 @@ public class ChandanSample {
        /* GroceryItems groceryItems = new GroceryItems(5526,"daal",85285);
         groceryItems.display();*/
 
-        UncheckedMain uncheckedMain = new UncheckedMain();
+       /* UncheckedMain uncheckedMain = new UncheckedMain();
         uncheckedMain.uncheckedexception();
 
         System.out.println("I'm chandan working in CodexBox");
-        System.out.println("I'm in Hyderabad");
+        System.out.println("I'm in Hyderabad");*/
+
+        Duplicateelements duplicateElements = new Duplicateelements();
+        duplicateElements.testMyArrayList();
 
     }
 }
