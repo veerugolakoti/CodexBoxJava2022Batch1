@@ -1,5 +1,7 @@
 package Ravaliproject.interfaces;
 
+import Ravaliproject.collections.StudentList;
+
 public interface Employee {
 
     String name();
@@ -9,4 +11,5 @@ public interface Employee {
     abstract String salary();
 
 
+    StudentList setName(String s);
 }

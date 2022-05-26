@@ -1,8 +1,8 @@
 package Ravaliproject.interfaces;
 
 public class MarkerInterface  implements Cloneable {
-     int id;
-     String name;
+     public int id;
+     public String name;
 
     public MarkerInterface(int id, String name) {
         this.id= id;

@@ -1,63 +1,86 @@
 package Ravaliproject.main;
 
-import Ravaliproject.exceptionhandling.checkedexception.CheckedExceptionExmple;
-import Ravaliproject.exceptionhandling.uncheckedexception.ArithmaticException;
-import Ravaliproject.exceptionhandling.uncheckedexception.NullpointerException;
-//mport Ravaliproject.markerinterface.MarkerInterface;
-import Ravaliproject.interfaces.Reema;
+import Ravaliproject.collections.ArrayListExample;
+import Ravaliproject.collections.StudentList;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainMethod {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    //  private static ArrayListExample[] Double;
 
-         NullpointerException nullpointerException=new NullpointerException();
+    public static void main(String[] args) {
+        ArrayListExample arrayListExample = new ArrayListExample();
+        arrayListExample.doublemethod();
+    }
+}
+    /*  List<StudentList> list= new ArrayList<>();
 
-        nullpointerException.display();
-
-        ArithmaticException arithmaticException= new ArithmaticException();
-        arithmaticException.sum(10,8);
-
-        /*
+      StudentList studentList = new StudentList();
+      studentList.setName("renu");
+      studentList.setId(8);
+      studentList.setMarks(89);
 
 
-        CheckedExceptionExmple checkedExceptionExmple=new CheckedExceptionExmple("Renu",78);
-        checkedExceptionExmple.getCheckedExceptionExmple1();
-        System.out.println(checkedExceptionExmple.name);
-        System.out.println(checkedExceptionExmple.id);
-        CheckedExceptionExmple checkedExceptionExmple1 = (CheckedExceptionExmple) checkedExceptionExmple.getCheckedExceptionExmple1();
-       // System.out.println(checkedExceptionExmple1.getCheckedExceptionExmple1());
+        StudentList studentList1= new StudentList();
+        studentList1.setName("sweety");
+        studentList1.setId(4);
+        studentList1.setMarks(89);
 
-        Reema r = new Reema();
-        System.out.println(r.name());
-        System.out.println(r.id());
-        System.out.println(r.salary());
-        System.out.println("GTFYGUJYHIU");
+        list.add(studentList);
+        list.add(studentList1);
 
-        MarkerInterface markerInterface = new MarkerInterface(8,"pooja");
-        System.out.println(markerInterface.name);
-        System.out.println(markerInterface.id);
-        MarkerInterface markerInterface1= (MarkerInterface) markerInterface.myInterfacMethod();
-        markerInterface1.name="ravali";
-        System.out.println(markerInterface1.name + "actual data");
-        System.out.println(markerInterface1.name);
 
-        System.out.println(markerInterface1.id);
+        for (StudentList st:list) {
+           System.out.println( " student id :   "+studentList.getId());
+            System.out.println(" student name: "+ studentList.getName());
+            System.out.println("student name: "+ studentList.getMarks());
+            System.out.println("================================");
+        }
+
+
+    }
+}/*
+
+
+
+
+
+
+     //   System.out.println(markerInterface1.id);
+     //   Scanner scanner = new Scanner(System.in);
+
+          /*   CheckedExceptionExmple    checkedExceptionExmple = new CheckedExceptionExmple("Renu", 78);
+                checkedExceptionExmple.getCheckedExceptionExmple1();
+                       System.out.println(checkedExceptionExmple.name);
+                       System.out.println(checkedExceptionExmple.id);
+                       CheckedExceptionExmple checkedExceptionExmple1 = (CheckedExceptionExmple) checkedExceptionExmple.getCheckedExceptionExmple1();
+                       // System.out.println(checkedExceptionExmple1.getCheckedExceptionExmple1());
+
+                       Reema r = new Reema();
+                        System.out.println(r.name());
+                       System.out.println(r.id());
+                      System.out.println(r.salary());
+                       System.out.println("GTFYGUJYHIU");
+                        MarkerInterface markerInterface = new MarkerInterface(8,"pooja");
+                     System.out.println(markerInterface.name);
+                      System.out.println(markerInterface.id);
+                       MarkerInterface markerInterface1 = (MarkerInterface) markerInterface.myInterfacMethod();
+                       markerInterface1.name ="ravali";
+                        System.out.println(markerInterface1.name + "actual data");
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name");
         String name = scanner.next();
-        System.out.println("Enter your id number");
         int number = scanner.nextInt();
         System.out.println("Enter your mailid");
-        String Mailid= scanner.next();
+        String Mailid = scanner.next();
         System.out.println("process completed");
-*/
+        {
+            //   NullPointerException nullPointerException=new NullPointerException();
+            //  nullPointerException.getMessage();
+        }
 
-     //   NullPointerException nullPointerException=new NullPointerException();
-      //  nullPointerException.getMessage();
+
     }
 
-
-    }
-
-
+}*/
