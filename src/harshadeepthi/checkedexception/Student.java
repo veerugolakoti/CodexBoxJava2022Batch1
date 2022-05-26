@@ -1,6 +1,6 @@
 package harshadeepthi.checkedexception;
 
-public  abstract class StudentAbstraction {
+public  abstract class Student {
     private Long studentId;
     private String studentName;
     private String studentaddress;
