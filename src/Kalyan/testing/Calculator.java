@@ -6,6 +6,7 @@ public class Calculator {
     @Test
     public void testSum(){
         Assert.assertEquals (50,example.sum(20,30));
+        System.out.println("testing values");
     }
     @Test
     public void testnegative(){
