@@ -1,5 +1,6 @@
 package mounika.sample.classpackage;
 
+import mounika.sample.duplicateexample.FindOut;
 import mounika.sample.juice.parent;
 
 import java.util.ArrayList;
@@ -40,28 +41,31 @@ public class MainClass {
             System.out.println("uiytre");
             }*/
 
-         parent method=new parent();
-         parent method1=new parent();
-         method1.setBottelcolour("yellow");
-         method1.setBottelprice("120");
+     /*   parent method = new parent();
+        parent method1 = new parent();
+        method1.setBottelcolour("yellow");
+        method1.setBottelprice("120");
 
-         parent method2=new parent();
-         method2.setBottelcolour("red");
-         method2.setBottelprice("100");
+        parent method2 = new parent();
+        method2.setBottelcolour("red");
+        method2.setBottelprice("100");
 
-        ArrayList<parent>list=new ArrayList();
-         list.add(method1);
-         list.add(method2);
+        ArrayList<parent> list = new ArrayList();
+        list.add(method1);
+        list.add(method2);
 
-         for (parent m:list){
-             System.out.println("method1 :"+ m.getBottelcolour());
-             System.out.println("method2 :"+ m.getBottelprice());
-             System.out.println("***********************************");
-         }
+        for (parent m : list) {
+            System.out.println("method1 :" + m.getBottelcolour());
+            System.out.println("method2 :" + m.getBottelprice());
+            System.out.println("***********************************");*/
 
-        }
 
-        }
+        FindOut findOut = new FindOut();
+        findOut.pratice();
+
+    }
+}
+
 
 
 
