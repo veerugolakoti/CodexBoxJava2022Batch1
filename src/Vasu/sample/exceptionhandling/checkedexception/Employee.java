@@ -1,4 +1,4 @@
-package Vasusample.Exceptionhandling.CheckedException;
+package Vasu.sample.exceptionhandling.checkedexception;
 
 public abstract class Employee {
     private String name;

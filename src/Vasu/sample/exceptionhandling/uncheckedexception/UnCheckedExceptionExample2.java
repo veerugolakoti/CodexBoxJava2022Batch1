@@ -1,6 +1,6 @@
-package Vasusample.Exceptionhandling.UnCheckedException;
+package Vasu.sample.exceptionhandling.uncheckedexception;
 
-public class UnChackedExceptionExample2 {
+public class UnCheckedExceptionExample2 {
     public void arrayexample(){
         try{
             int array[]=new int[]{1,2,3,4,5};

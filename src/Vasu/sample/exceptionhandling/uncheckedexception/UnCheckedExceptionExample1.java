@@ -1,4 +1,4 @@
-package Vasusample.Exceptionhandling.UnCheckedException;
+package Vasu.sample.exceptionhandling.uncheckedexception;
 
 //custom exception
 
