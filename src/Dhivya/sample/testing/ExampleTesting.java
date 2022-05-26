@@ -9,6 +9,8 @@ public class ExampleTesting {
 
     public void test(){
         Sum sum=new Sum();
+
+
         Assert.assertEquals(40,sum.sum(10,30));
     }
 

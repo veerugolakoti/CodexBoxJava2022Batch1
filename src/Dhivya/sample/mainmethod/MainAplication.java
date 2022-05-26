@@ -1,5 +1,6 @@
 package Dhivya.sample.mainmethod;
 
+import Dhivya.sample.collections.DuplicateList;
 import Dhivya.sample.collections.GamesList;
 import Dhivya.sample.exceptionhandling.ArrayIndex;
 import Dhivya.sample.exceptionhandling.DivyaException;
@@ -68,7 +69,7 @@ public class MainAplication {
         arrayIndex.getArray();*/
 
 //list
-        GamesList gamesList=new GamesList();
+       /* GamesList gamesList=new GamesList();
         List<GamesList>list=new ArrayList();
         GamesList gamesList1=new GamesList();
         gamesList1.setGamename("Throw Ball");
@@ -82,13 +83,20 @@ public class MainAplication {
         list.add(gamesList1);
         list.add(gamesList2);
         list.add(gamesList3);
-        for (GamesList ga: list) {
+        for (GamesList ga: list)
+        {
             System.out.println("game name " + ga.getGamename());
             System.out.println("game no " + ga.getNo());
             System.out.println("**************************************");
+         }
+*/
 
 
-        }
+//finding duplicate name and how many times it repeated
+
+        DuplicateList duplicateList=new DuplicateList();
+        duplicateList.testlist();
+
 
 
 
