@@ -1,11 +1,12 @@
 package Abhilash.Main;
 
+import Abhilash.collectionExamples.DuplicateExample;
 import Abhilash.collectionExamples.Groceries;
 import Abhilash.exceptionhandling.CustomExceptionExample;
 import Abhilash.exceptionhandling.UsingFinally;
 import Abhilash.exceptionhandling.UsingFinallyAndSystem_exit;
 import Abhilash.exceptionhandling.Number;
-import Abhilash.fileHandling.Comparison;
+//import Abhilash.fileHandling.Comparison;
 import Abhilash.fileHandling.FirstFile;
 import Abhilash.inheritanceExample.Inheritance_Impl;
 import Abhilash.interfaceExamples.Employee;
@@ -66,8 +67,8 @@ public class MainApplication {
         FirstFile firstFile = new FirstFile();
         System.out.println(firstFile.getFile());
         System.out.println("\"comparison\"");
-        Comparison comparison = new Comparison();
-        comparison.comparison();
+//        Comparison comparison = new Comparison();
+//        comparison.comparison();
         // collection examples package
         Groceries groceries = new Groceries();
         Groceries groceries1 = new Groceries();
@@ -89,6 +90,9 @@ public class MainApplication {
             System.out.println(gro.getDalls());
             System.out.println(gro.getFruits());
             System.out.println(gro.getGeneral_items());
+            System.out.println("============================");
         }
+        DuplicateExample duplicateExample = new DuplicateExample();
+        duplicateExample.duplicate();
     }
 }
