@@ -1,6 +1,8 @@
 package TejaAravind.Interfaces;
 
-public interface Marker {
+import renuprojects.MarkerInterface.MarkerInterface;
+
+public interface Marker{
     String empid = "56";
     void display();
 
