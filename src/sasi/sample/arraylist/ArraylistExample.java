@@ -31,7 +31,7 @@ public class ArraylistExample {
                 }
             }
         }
-        System.out.println(duplicateName + " is duplicated " + duplicateCount + " times");
+        System.out.println(duplicateName + " is duplicate  " + duplicateCount + " times");
 
     }
     }
