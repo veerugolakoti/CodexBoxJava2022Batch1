@@ -11,7 +11,11 @@ public class Employee implements Cloneable  {
        this.salary = salary;
        this.address = address;
    }
-   public void printdetails(){
+
+    public static void add(String rehana) {
+    }
+
+    public void printdetails(){
        System.out.println("employee name:" +name);
        System.out.println("employee id:" +id);
        System.out.println("employee salary:" +salary);

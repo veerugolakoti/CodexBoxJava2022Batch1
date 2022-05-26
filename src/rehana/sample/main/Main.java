@@ -1,7 +1,6 @@
 package rehana.sample.main;
 
-import rehana.sample.exceptionhandling.NumberFormatExceptionClass;
-import rehana.sample.exceptionhandling.RehanaException;
+import rehana.sample.collectionsExample.ArraylistExample;
 
 public class Main {
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -29,7 +28,7 @@ public class Main {
         n.getNumberFormatException();*/
 
         //CUSTOMISED EXCEPTION
-        try{
+       /* try{
             throw  new RehanaException("abc");
 
         }
@@ -37,6 +36,14 @@ public class Main {
             System.out.println(e.getMessage());
 
         }
+*/
+        //Collections Example
+        ArraylistExample ae = new ArraylistExample();
+         ae.test();
 
-    }
-}
+            }
+
+
+        }
+
+
