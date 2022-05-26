@@ -1,0 +1,46 @@
+package jhansi.duplicatevalues;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListOfNames {
+
+    public static void method() {
+
+        List<String> arraylist = new ArrayList<>();
+        arraylist.add("jhansi");
+        arraylist.add("renuka");
+        arraylist.add("swathi");
+        arraylist.add("harsha");
+        arraylist.add("akshi");
+        arraylist.add("ravali");
+        arraylist.add("vidya");
+        arraylist.add("divya");
+        arraylist.add("mounika");
+        arraylist.add("divya");
+
+        Integer duplicatecount = 1;
+        String duplicatename = null;
+        List<Integer> lst=new ArrayList<>();
+
+        for (int i = 0; i < arraylist.size(); i++) {
+            for(int j=i+1;j< arraylist.size();j++){
+                if(arraylist.get(i).equalsIgnoreCase(arraylist.get(j))) {
+//                    System.out.println(arraylist.get(i));
+                    duplicatecount++;
+                    duplicatename= arraylist.get(j);
+                    break;
+                }
+
+
+
+            }
+        }
+        System.out.println(duplicatename+ "is duplicated" + duplicatecount +"times");
+    }
+
+
+}
+
+
+

@@ -2,6 +2,7 @@ package jhansi.main;
 
 import jhansi.ExceptionHandlingExamples.CheckedExample;
 import jhansi.collections.TicketDetails;
+import jhansi.duplicatevalues.ListOfNames;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +33,8 @@ public class MainApplication {
 //        ckm.method();
         //System.out.println("==========Exception Handling");
 
-        List<TicketDetails> list = new ArrayList<>();
+
+      /*  List<TicketDetails> list = new ArrayList<>();
         TicketDetails tcs = new TicketDetails();
         tcs.setName("jhansi");
         tcs.setAge(23);
@@ -64,9 +66,16 @@ public class MainApplication {
             System.out.println("Age:" + TicketDetails.getAge());
             System.out.println("Id Number:" + TicketDetails.getId());
             System.out.println("Amount:" + TicketDetails.getAmount());
-            System.out.println("Adress:" + TicketDetails.getAdress());
+            System.out.println("Adress:" + TicketDetails.getAdress());//
+            */
+
+            ListOfNames  lsn=new ListOfNames();
+        lsn.method();
+
 
 
         }
-    }
+
+
+
 }
