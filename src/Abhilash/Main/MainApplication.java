@@ -1,15 +1,19 @@
 package Abhilash.Main;
 
+import Abhilash.collectionExamples.Groceries;
 import Abhilash.exceptionhandling.CustomExceptionExample;
 import Abhilash.exceptionhandling.UsingFinally;
 import Abhilash.exceptionhandling.UsingFinallyAndSystem_exit;
 import Abhilash.exceptionhandling.Number;
+import Abhilash.fileHandling.Comparison;
 import Abhilash.fileHandling.FirstFile;
 import Abhilash.inheritanceExample.Inheritance_Impl;
 import Abhilash.interfaceExamples.Employee;
 import Abhilash.interfaceExamples.InterfaceExample;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainApplication {
     public static void main(String[] args) throws IOException {
@@ -60,7 +64,31 @@ public class MainApplication {
 
         System.out.println("\" File handling output \"");
         FirstFile firstFile = new FirstFile();
-        firstFile.getFile();
+        System.out.println(firstFile.getFile());
+        System.out.println("\"comparison\"");
+        Comparison comparison = new Comparison();
+        comparison.comparison();
+        // collection examples package
+        Groceries groceries = new Groceries();
+        Groceries groceries1 = new Groceries();
+        List<Groceries> list = new ArrayList<>();
+        groceries.setVeggies("brinjal");
+        groceries.setDalls("chana dal");
+        groceries.setFruits("mango");
+        groceries.setGeneral_items("tooth paste");
 
+        groceries1.setVeggies("brinjal");
+        groceries1.setDalls("chana dal");
+        groceries1.setFruits("mango");
+        groceries1.setGeneral_items("brush");
+
+        list.add(groceries);
+        list.add(groceries1);
+        for (Groceries gro: list) {
+            System.out.println(gro.getVeggies());
+            System.out.println(gro.getDalls());
+            System.out.println(gro.getFruits());
+            System.out.println(gro.getGeneral_items());
+        }
     }
 }
