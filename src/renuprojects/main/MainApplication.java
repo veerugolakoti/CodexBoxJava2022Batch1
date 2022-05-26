@@ -1,6 +1,6 @@
 package renuprojects.main;
 
-import renuprojects.collections.ListExampleOfEmployee;
+import renuprojects.collections.ListExampleOfInteger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,7 +50,7 @@ public class MainApplication {
             System.out.println(custom.getMessage());
         }
 */
-        List<ListExampleOfEmployee> list=new ArrayList<>();
+        /*List<ListExampleOfEmployee> list=new ArrayList<>();
 
         ListExampleOfEmployee emp1=new ListExampleOfEmployee();
         emp1.setName("ravali");
@@ -76,6 +76,18 @@ public class MainApplication {
             System.out.println("---------------------------------------");
 
         }
+*/
+
+
+
+        ListExampleOfInteger listExampleOfInteger=new ListExampleOfInteger();
+        listExampleOfInteger.listMethod();
+
+
+
+
+
+
 
     }
 
