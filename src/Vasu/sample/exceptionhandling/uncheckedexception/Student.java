@@ -1,4 +1,4 @@
-package Vasusample.Exceptionhandling.UnCheckedException;
+package Vasu.sample.exceptionhandling.uncheckedexception;
 
 public class Student {
     private int RollNumber;

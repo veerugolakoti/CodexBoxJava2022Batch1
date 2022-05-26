@@ -1,4 +1,4 @@
-package Vasusample.Exceptionhandling.CheckedException;
+package Vasu.sample.exceptionhandling.checkedexception;
 
 
 

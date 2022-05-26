@@ -1,4 +1,4 @@
-package Vasusample.JavaInterface;
+package Vasu.sample.javaInterface;
 
 public class BatchSecond implements InterFaceSchool{
 
