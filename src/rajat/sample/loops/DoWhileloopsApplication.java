@@ -1,7 +1,7 @@
 package rajat.sample.loops;
 
 public class DoWhileloopsApplication {
-    public static void main(String[] args) {
+    public void getDoWhile(){
         int i = 1;
        do{
         System.out.println("condition satisfied");

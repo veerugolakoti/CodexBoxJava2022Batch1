@@ -3,7 +3,7 @@ package rajat.sample.strings;
 import java.util.StringJoiner;
 
 public class Join3StringApp {
-    public static void main(String[] args) {
+    public void getJoinner() {
         String str1="I";
         String str2="Love";
         String str3="MySelf";

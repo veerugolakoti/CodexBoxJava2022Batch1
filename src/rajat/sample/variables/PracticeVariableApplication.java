@@ -3,7 +3,7 @@ package rajat.sample.variables;
 public class PracticeVariableApplication {
     long phNo=7008697185l;
     static int empId=202252;
-    public static void main(String[] args) {
+    public void getVariable() {
         System.out.println("Rajat Kumar Behera");
         int age=24;
         System.out.println("My age is="+age);

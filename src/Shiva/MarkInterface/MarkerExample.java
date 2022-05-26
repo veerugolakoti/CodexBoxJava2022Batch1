@@ -1,7 +1,7 @@
 package Shiva.MarkInterface;
 
 public class MarkerExample implements Cloneable {
-    String name;
+    public String name;
     int id;
 
     public Object clonnableObj() throws CloneNotSupportedException {

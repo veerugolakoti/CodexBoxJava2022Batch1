@@ -3,7 +3,7 @@ package rajat.sample.strings;
 import java.util.Scanner;
 
 public class PalindromeStringApp {
-    public static void main(String[] args) {
+    public void getPalindrome() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string::");
         String strOriginal = sc.nextLine();

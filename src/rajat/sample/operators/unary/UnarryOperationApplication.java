@@ -1,7 +1,7 @@
 package rajat.sample.operators.unary;
 
 public class UnarryOperationApplication {
-    public static void main(String[] args) {
+    public void getUnaryOperator() {
         int temp=-10;
         System.out.println("Temperature="+temp);
     }
