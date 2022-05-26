@@ -51,28 +51,28 @@ public class FindDuplicatesInList {
         for(int i=0 ; i<student.size();i++){
             for (int j=i+1;j<student.size();j++){
                 if (student.get(i).equalsIgnoreCase(student.get(j))){
-//                    count1++;
                     count.add(count1++);
-                    temp.add(student.get(i));
+                    if (!temp.contains(student.get(i))) {
+                        temp.add(student.get(i));
+                    }
                     break;
                 }
             }
 
-        }
-//        System.out.println(temp+"Duplicate+"+count);
-        System.out.println(temp+"Duplicate:"+count+"times");
-        int num =1;
-        for (int k =0;k<temp.size();k++){
-                for (int l = k+1;l<temp.size();l++) {
-                    if (temp.get(k).equalsIgnoreCase(temp.get(l))) {
-                        num++;
-
-                    }
-                }
-
-        }
-        System.out.println(num);
-//        System.out.println(temp.get());
+        }System.out.println(temp+"Duplicate+"+count);
+//        System.out.println(temp+"Duplicate:"+count+"times");
+//        int num =1;
+//        for (int k =0;k<temp.size();k++){
+//                for (int l = k+1;l<temp.size();l++) {
+//                    if (temp.get(k).equalsIgnoreCase(temp.get(l))) {
+//                        num++;
+//
+//                    }
+//                }
 
     }
+//        System.out.println(num);
+//        System.out.println(temp.get());
+
 }
+
