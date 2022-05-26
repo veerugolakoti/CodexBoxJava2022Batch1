@@ -1,16 +1,14 @@
 package Dinesh202270.unitTesting;
 
-import Dinesh202270.Dublicate.Dublicate;
+import Dinesh202270.collections.Dublicate;
 import junit.framework.Assert;
 import org.junit.Test;
 
-import java.lang.annotation.Repeatable;
-
 public class Testing1 {
 
-    @Test
 
-    public void checking()
+
+   /* public void checking()
     {
         Dublicate d=new Dublicate();
      org.junit.Assert.assertEquals(8, d.numbers(4,4));
@@ -24,5 +22,5 @@ public class Testing1 {
     {
         Dublicate e = new Dublicate();
         Assert.assertEquals(9, e.numbers(4,5));
-    }
+    }*/
 }

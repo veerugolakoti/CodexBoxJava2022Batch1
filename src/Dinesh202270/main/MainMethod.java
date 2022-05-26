@@ -1,6 +1,7 @@
 package Dinesh202270.main;
 
 import Dinesh202270.abstraction.NewClass;
+import Dinesh202270.collections.Dublicate;
 import Dinesh202270.exceptions.CustomerClass;
 import Dinesh202270.exceptions.Example;
 import Dinesh202270.exceptions.FirstException;
@@ -8,6 +9,7 @@ import Dinesh202270.taggedinterface.CheckedException;
 
 public class MainMethod {
     public static void main(String[] args) {
+/*
 
         NewClass newClass = new NewClass();
 
@@ -47,6 +49,12 @@ public class MainMethod {
             FirstException firstException= new FirstException();
             System.out.println(firstException.division());
             System.out.println(firstException.name());
+
+*/
+
+        Dublicate dublicate= new Dublicate();
+
+        dublicate.dublicate1();
 
 
     }
