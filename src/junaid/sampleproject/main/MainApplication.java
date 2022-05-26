@@ -1,6 +1,8 @@
 package junaid.sampleproject.main;
 
+import junaid.sampleproject.collections.ArrayListExamples;
 import junaid.sampleproject.collections.Cars;
+import junaid.sampleproject.collections.FindDuplicatesValues;
 import junaid.sampleproject.taggedinterfaces.TaggedInterfaces;
 
 import java.util.ArrayList;
@@ -82,8 +84,19 @@ public class MainApplication
             System.out.println("==========================================================");
 
         }
-        System.out.println("========================Testing==========================");
+//        System.out.println("========================Testing==========================");
+//        System.out.println("================Find Duplicate Values====================");
+//
+//        FindDuplicatesValues findDuplicatesValues = new FindDuplicatesValues();
+//
+//        findDuplicatesValues.findDupValues();
+
+        System.out.println("=================Find ArrayList Examples================");
+
+        ArrayListExamples arrayListExamples = new ArrayListExamples();
+
+        arrayListExamples.testMyArray();
 
 
-     }
     }
+}
