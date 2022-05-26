@@ -1,16 +1,7 @@
 package smrutiranjan.practice.MainMethod;
 
-import smrutiranjan.practice.collection.ListProgram;
-import smrutiranjan.practice.excedemo.checkuncheck.CheckedException;
-import smrutiranjan.practice.excedemo.checkuncheck.UsingFinally;
-import smrutiranjan.practice.excedemo.exceptionhandling.ExceptionHandling;
-import smrutiranjan.practice.excedemo.exceptionhandling.ExceptionProg1;
-import smrutiranjan.practice.excedemo.exceptionhandling.ExeptionPract;
-import smrutiranjan.practice.excedemo.trycatchex.*;
+import smrutiranjan.practice.collection.ArraylistDuplicateValue;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Scanner;
 
 public class MainMethod {
     public static void main(String[] args)
@@ -107,8 +98,11 @@ public class MainMethod {
         System.out.println("\n");*/
 
 //collection package
-        ListProgram lp = new ListProgram();
-        lp.listProgram();
+      /*  ListProgram lp = new ListProgram();
+        lp.listProgram();*/
+
+        ArraylistDuplicateValue dv = new ArraylistDuplicateValue();
+        dv.duplicatevalue();
 
     }
 }
