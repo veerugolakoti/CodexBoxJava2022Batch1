@@ -3,18 +3,9 @@ package Dinesh202270.exceptions;
 
 public class Example {
 
-    public static void main(String[] args) {
-        try{
-            Example example=new Example();
-            example.rethrow("abc");
-        }catch(FirstException | SecondException | ThirdException e){
-            //below assignment will throw compile time exception since e is final
-            //e = new Exception();
-            System.out.println(e.getMessage());
-        }
-    }
 
-    void rethrow(String s) throws FirstException, SecondException,
+
+    public void rethrow(String s) throws FirstException, SecondException,
             ThirdException {
         try {
             if (s.equals("First"))
@@ -30,21 +21,21 @@ public class Example {
         }
     }
 
-     class FirstException extends Exception {
+     public class FirstException extends Exception {
 
         public FirstException(String msg) {
             super(msg);
         }
     }
 
-    static class SecondException extends Exception {
+    public static class SecondException extends Exception {
 
         public SecondException(String msg) {
             super(msg);
         }
     }
 
-    static class ThirdException extends Exception {
+    public static class ThirdException extends Exception {
 
         public ThirdException(String msgP) {
             super(msgP);

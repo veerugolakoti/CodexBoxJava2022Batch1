@@ -1,8 +1,9 @@
 package Dinesh202270.main;
 
-import Dinesh202270.abstraction.Abstraction;
 import Dinesh202270.abstraction.NewClass;
 import Dinesh202270.exceptions.CustomerClass;
+import Dinesh202270.exceptions.Example;
+import Dinesh202270.exceptions.FirstException;
 import Dinesh202270.taggedinterface.CheckedException;
 
 public class MainMethod {
@@ -16,8 +17,6 @@ public class MainMethod {
         newClass.method4();
         newClass.method5();
 
-        Abstraction abstraction = new NewClass();
-        System.out.println(abstraction.method2());
 
 
         CustomerClass customerClass = new CustomerClass();
@@ -33,6 +32,21 @@ public class MainMethod {
 
         CheckedException checkedException = new CheckedException();
         System.out.println(checkedException.exception());
+
+
+            try{
+                Example example=new Example();
+                example.rethrow("abc");
+            }catch(Example.FirstException | Example.SecondException | Example.ThirdException e) {
+                //below assignment will throw compile time exception since e is final
+                //e = new Exception();
+                System.out.println(e.getMessage());
+            }
+
+
+            FirstException firstException= new FirstException();
+            System.out.println(firstException.division());
+            System.out.println(firstException.name());
 
 
     }

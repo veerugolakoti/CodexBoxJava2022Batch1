@@ -13,11 +13,11 @@ public class Testing1 {
     public void checking()
     {
         Dublicate d=new Dublicate();
-     Assert.assertEquals(8, d.numbers(4,4));
+     org.junit.Assert.assertEquals(8, d.numbers(4,4));
         Assert.assertEquals(9, d.numbers(4,5));
-        Assert.assertEquals(90, d.numbers(40,40));
+        Assert.assertEquals(80, d.numbers(40,40));
 
-        Assert.assertEquals(81, d.numbers(40,40));
+        Assert.assertEquals(80, d.numbers(40,40));
     }
     @Test
     public void checking1()
