@@ -1,4 +1,5 @@
 package ramdurgaprasad.sample.mainmethod;
+import ramdurgaprasad.sample.collections.DuplicateStringWithCount;
 import ramdurgaprasad.sample.exceptionhandling.ArithmeticEception;
 import ramdurgaprasad.sample.exceptionhandling.ArrayIndexBoundofException;
 
@@ -16,13 +17,25 @@ public class ExceptionHandlingMain {
    /* public static void main(String[] args) {
         ArithmeticEception ae = new ArithmeticEception();
         ae.Displaymethod();*/
+
+
+//    =============Arrayboundofexception============
+
+/*
    public static void main(String[] args) {
        ArrayIndexBoundofException arrayIndexBoundofException=new ArrayIndexBoundofException();
   arrayIndexBoundofException.Array();
    }
+*/
 
 
+    //   = ====== ====     Duplicate Strings with Count======
+    public static void main(String[] args) {
 
+
+        DuplicateStringWithCount count = new DuplicateStringWithCount();
+        count.Duplicate();
+    }
 
     }
 
