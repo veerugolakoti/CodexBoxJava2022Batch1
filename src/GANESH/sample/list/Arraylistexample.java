@@ -8,10 +8,7 @@ public class Arraylistexample<S> {
      al1.add("ganesh");
      al1.add("leela");
      al1.add("jaddu");
-     al1.add("ram");
       al1.add("ganesh");
-      al1.add("bhargav");
-      al1.add("shiva");
       al1.add("chandan");
       al1.add("ganesh");
 
@@ -26,17 +23,19 @@ public class Arraylistexample<S> {
                 System.out.println(arr2);
             }*/
         int count =0;
+         String duplicatename = null;
         ArrayList<String> al2  = new ArrayList<>();
         for (int i =0;i< al1.size();i++){
             for (int j=i+1;j< al1.size();j++){
                if (al1.get(i).equalsIgnoreCase(al1.get(j))){
-                   System.out.println("duplicate name is" + al1.get(i));
                       count++;
+                      duplicatename = al1.get(i);
+                      break;
                 }
             }
         }
 
-
+        System.out.println(duplicatename +" is duplicate "+count +" times");
         }
 
 
