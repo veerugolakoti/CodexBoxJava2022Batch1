@@ -1,5 +1,6 @@
 package renuprojects.main;
 
+import renuprojects.collections.ArrayListExample;
 import renuprojects.collections.ListExampleOfInteger;
 
 import java.util.ArrayList;
@@ -80,11 +81,14 @@ public class MainApplication {
 
 
 
-        ListExampleOfInteger listExampleOfInteger=new ListExampleOfInteger();
+     /*   ListExampleOfInteger listExampleOfInteger=new ListExampleOfInteger();
         listExampleOfInteger.listMethod();
 
+*/
 
 
+        ArrayListExample arrayListExample=new ArrayListExample();
+        arrayListExample.usingArrayListMethods();
 
 
 
