@@ -1,5 +1,7 @@
 package smrutiranjan.practice.MainMethod;
 
+import smrutiranjan.practice.collection.ArrayDuplicate;
+import smrutiranjan.practice.collection.ArrayListMethods;
 import smrutiranjan.practice.collection.ArraylistDuplicateValue;
 
 
@@ -101,8 +103,13 @@ public class MainMethod {
       /*  ListProgram lp = new ListProgram();
         lp.listProgram();*/
 
-        ArraylistDuplicateValue dv = new ArraylistDuplicateValue();
-        dv.duplicatevalue();
+//duplicate in array
+      /*  ArrayDuplicate ad = new ArrayDuplicate();
+        ad.arrayduplicate();*/
+//duplicate in arraylist
+        ArrayListMethods arrayobj = new ArrayListMethods();
+        arrayobj.arrayListMethods();
+
 
     }
 }

@@ -14,7 +14,7 @@ public class ArraylistDuplicateValue {
         empdetails.add("jeet");
         empdetails.add("jeet");
 
-        String str = "";
+      //  String str = "";
         int count = 0;
 
         List<Integer> duplicateCount = new ArrayList<>();
@@ -24,16 +24,17 @@ public class ArraylistDuplicateValue {
             for (int j = i + 1; j < empdetails.size(); j++) {
 
                 if (empdetails.get(i).equals(empdetails.get(j))) {
-                    if (duplicateName.contains(empdetails.get(i))) {
+
+                    if (!duplicateName.contains(empdetails.get(i)) ){
+                        duplicateName.add(empdetails.get(j));
+                        duplicateCount.add(count++);
                         break;
-                    } else {
-                        duplicateName.add(empdetails.get(i));
                     }
-                    if(duplicateCount.contains(empdetails.get(1))){
+                    /*if(duplicateCount.contains(empdetails.get(i))){
                         break;
                     }else{
                         duplicateCount.add(count++);
-                    }
+                    }*/
                 }
             }
         }
