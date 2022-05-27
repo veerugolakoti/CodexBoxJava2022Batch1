@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DuplicatesList {
-    public static void Duplicates() {
+    public static void duplicates() {
         List<String> list = new ArrayList<>();
 
         list.add("saikumar");
