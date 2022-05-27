@@ -1,17 +1,23 @@
 package Ravaliproject.main;
 
 import Ravaliproject.collections.ArrayListExample;
+import Ravaliproject.collections.LinkedListExample;
 import Ravaliproject.collections.StudentList;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class MainMethod {
     //  private static ArrayListExample[] Double;
 
     public static void main(String[] args) {
-        ArrayListExample arrayListExample = new ArrayListExample();
-        arrayListExample.doublemethod();
+
+        LinkedListExample linkedListExample=new LinkedListExample();
+        linkedListExample.linkedMethod();
+
+      //  ArrayListExample arrayListExample = new ArrayListExample();
+       // arrayListExample.doublemethod();
     }
 }
     /*  List<StudentList> list= new ArrayList<>();
