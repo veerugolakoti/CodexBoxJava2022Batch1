@@ -1,8 +1,7 @@
 package harshadeepthi.main;
 
 
-import harshadeepthi.ArrayList23;
-import harshadeepthi.ArrayListExample;
+import harshadeepthi.Linkedlistexample;
 
 
 public class MainMethod {                         //Demo program cloneable
@@ -52,11 +51,16 @@ public class MainMethod {                         //Demo program cloneable
 */
 /**/
 
-   //ArrayListExample arrayListExample=new ArrayListExample();
-     //   arrayListExample.testarraylist();
+  // ArrayListExample arrayListExample=new ArrayListExample();
+      //  arrayListExample.testarraylist();
 
-     ArrayList23 arrayList=new ArrayList23();
-     arrayList.testMyarraylist();
+   // ArrayList23 arrayList=new ArrayList23();
+     //arrayList.testMyarraylist();
+
+        Linkedlistexample linkedlist=new Linkedlistexample();
+        linkedlist.testMyLinkedlist();
+
+
 
 
     }

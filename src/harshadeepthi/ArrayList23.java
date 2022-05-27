@@ -19,7 +19,9 @@ public class ArrayList23 {
         studentList.add("Harsha");
 
 
-        int count = 0;
+
+
+        int count =0;
         List<Integer> duplicateCount =  new ArrayList<>();
         List<String> duplicateName = new ArrayList<>();
 
@@ -28,12 +30,22 @@ public class ArrayList23 {
             for (int j= i + 1; j < studentList.size(); j++) {
 
                 if (studentList.get(i).equalsIgnoreCase(studentList.get(j))) {
-                    duplicateCount.add(count ++);
-                    duplicateName .add(studentList.get(j));
-                    break;
+                    // duplicateCount.add(count ++);
+                    // duplicateName.add(studentList.get(j));
+                    //  break;
+                    if (duplicateName.contains(studentList.get(i))) {
+                        break;
+                    }
+                    else {
+                        duplicateName.add(studentList.get(j));
+                        duplicateCount.add(count++);
+                    }
                 }
+
             }
-        }
+
+
+                }
 
 
         System.out.println(duplicateName + " is duplicated " + duplicateCount + " times");
