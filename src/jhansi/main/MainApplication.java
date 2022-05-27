@@ -2,6 +2,7 @@ package jhansi.main;
 
 import jhansi.ExceptionHandlingExamples.CheckedExample;
 import jhansi.collections.TicketDetails;
+import jhansi.colletions1.ArrayList77;
 import jhansi.duplicatevalues.ListOfNames;
 
 import java.util.ArrayList;
@@ -68,12 +69,16 @@ public class MainApplication {
             System.out.println("Amount:" + TicketDetails.getAmount());
             System.out.println("Adress:" + TicketDetails.getAdress());//
             */
-        ListOfNames  lsn=new ListOfNames();
+   /*     ListOfNames  lsn=new ListOfNames();
         lsn.method();
+*/
 
 
+        ArrayList77 arr=new ArrayList77();
+        arr.method();
 
-        }
+
+    }
 
 
 
