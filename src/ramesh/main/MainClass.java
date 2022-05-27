@@ -1,14 +1,29 @@
+
 package ramesh.main;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ramesh.array.ArrayListExamples;
+import ramesh.array.FindDuplicateNamesInList;
 import ramesh.junit.Junitexamples;
+import ramesh.list.LinkedListExamples;
+
+import java.util.ArrayList;
 
 public class MainClass {
-    @Test
-  public   void calculate(){
-        Junitexamples junitexamples = new Junitexamples();
-        Assert.assertEquals(50,junitexamples.multiplication(10,2));
-    }
+    public static void main(String[] args) {
+//        FindDuplicateNamesInList findDuplicateNamesInList = new FindDuplicateNamesInList();
+//       findDuplicateNamesInList.testMyArrayList();
+        LinkedListExamples linkedListExamples = new LinkedListExamples();
+        linkedListExamples.linkedListOperations();
+
+
+
+
+
+        }
+
+
 
 }
+
