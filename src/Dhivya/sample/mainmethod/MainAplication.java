@@ -1,16 +1,6 @@
 package Dhivya.sample.mainmethod;
 
-import Dhivya.sample.collections.DuplicateList;
-import Dhivya.sample.collections.GamesList;
-import Dhivya.sample.exceptionhandling.ArrayIndex;
-import Dhivya.sample.exceptionhandling.DivyaException;
-import Dhivya.sample.exceptionhandling.IndexOutOfBound;
-import Dhivya.sample.impls.TaggedInterface;
-import Dhivya.sample.singletone.SingletoneExample;
-import sangamesh.exceptionhandling.mainexception;
-
-import java.util.ArrayList;
-import java.util.List;
+import Dhivya.sample.collections.DifferentMethodsOfArraylist;
 
 public class MainAplication {
     public static void main(String[] args) {
@@ -94,12 +84,13 @@ public class MainAplication {
 
 //finding duplicate name and how many times it repeated
 
-        DuplicateList duplicateList=new DuplicateList();
+       /* DuplicateList duplicateList=new DuplicateList();
         duplicateList.testlist();
+*/
 
 
-
-
-
+//different methods of array list
+        DifferentMethodsOfArraylist differentMethodsOfArraylist=new DifferentMethodsOfArraylist();
+        differentMethodsOfArraylist.methodsofarraylist();
     }
 }
