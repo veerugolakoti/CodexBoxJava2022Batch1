@@ -33,7 +33,7 @@ public class DuplicatesListCount {
                 listCount.add(count);
             }
         }
-        System.out.println(listString);
+//        System.out.println(listString);
 //        System.out.println(listCount);
 
 

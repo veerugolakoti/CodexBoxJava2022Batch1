@@ -51,6 +51,9 @@ public class TestMyApp {
         employeeList.add("siva");
         employeeList.add("Dinesh");
         employeeList.add("Dinesh");
+        employeeList.add("Vidya");
+        employeeList.add("Vidya");
+
 
         DuplicatesListCount.duplicateCount(employeeList);
     }
