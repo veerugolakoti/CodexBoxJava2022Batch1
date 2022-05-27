@@ -2,6 +2,7 @@ package mounika.sample.classpackage;
 
 import mounika.sample.duplicateexample.FindOut;
 import mounika.sample.juice.parent;
+import mounika.sample.linkedlist.ListExample;
 
 import java.util.ArrayList;
 
@@ -63,6 +64,7 @@ public class MainClass {
         FindOut findOut = new FindOut();
         findOut.pratice();
 
+        ListExample listExample=new ListExample();
     }
 }
 
