@@ -6,29 +6,27 @@ import java.util.List;
 import java.util.Scanner;
 
 public  class FindDuplicate {
-        public void companyname () {
-            List<String> companylist = new ArrayList<>();
-            companylist.add("codexbox");
-            companylist.add("kagool");
-            companylist.add("codexbox");
-            companylist.add("codexbox");
-            companylist.add("microsoft");
-            companylist.add("wipro");
-            companylist.add("infosis");
-            int count = 0;
-       List<Integer> dcounts = new ArrayList<>();
-       List<String> names = new ArrayList<>();
-            for (int i = 0; i < companylist.size(); i++) {
-                for (int j = i + 1; j < companylist.size(); j++) {
-                    if (companylist.get(i).equals(companylist.get(j)));{
-
-                        dcounts.add(count++) ;
-                        names.add(companylist.get(i)) ;
-                        break;
-                    }
+    public void companyname() {
+        List<String> companylist = new ArrayList<>();
+        companylist.add("Codexbox");
+        companylist.add("kagool");
+        companylist.add("kagool");
+        companylist.add("wipro");
+        companylist.add("kagool");
+        companylist.add("kagool");
+        int count = 0;
+        List<Integer> dcounts = new ArrayList<>();
+        List<String> names = new ArrayList<>();
+        for (int i = 0; i < companylist.size(); i++) {
+            for (int j = i + 1; j < companylist.size(); j++) {
+                if (companylist.get(i).equalsIgnoreCase(companylist.get(j))){
+                    names.add(companylist.get(j));
+                    break;
+//                    System.out.println(names + " repeated times =" + names.size());
                 }
             }
-            System.out.println( names + "repeated times =" + dcounts);
         }
+        System.out.println(names.get(0) + " repeated times =" + names.size());
     }
 
+}
