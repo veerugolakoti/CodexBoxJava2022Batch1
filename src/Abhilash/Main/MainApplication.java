@@ -7,6 +7,7 @@ import Abhilash.exceptionhandling.UsingFinally;
 import Abhilash.exceptionhandling.UsingFinallyAndSystem_exit;
 import Abhilash.exceptionhandling.Number;
 //import Abhilash.fileHandling.Comparison;
+import Abhilash.fileHandling.Comparison;
 import Abhilash.fileHandling.FirstFile;
 import Abhilash.inheritanceExample.Inheritance_Impl;
 import Abhilash.interfaceExamples.Employee;
@@ -66,7 +67,8 @@ public class MainApplication {
         System.out.println("\" File handling output \"");
         FirstFile firstFile = new FirstFile();
         System.out.println(firstFile.getFile());
-        System.out.println("\"comparison\"");
+
+//        System.out.println("\"comparison\"");
 //        Comparison comparison = new Comparison();
 //        comparison.comparison();
         // collection examples package
