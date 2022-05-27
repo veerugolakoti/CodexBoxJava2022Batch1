@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DuplicatesListCount {
-    public static void main(String[] args) {
-
+    public static void DuplicateCount(){
         List<String> list = new ArrayList<>();
 
         list.add("teja");
@@ -56,4 +55,7 @@ public class DuplicatesListCount {
         }
 
     }
+
+
+
 }
