@@ -1,11 +1,6 @@
 package Dhivya.sample.mainmethod;
 
-import Dhivya.sample.exceptionhandling.ArrayIndex;
-import Dhivya.sample.exceptionhandling.DivyaException;
-import Dhivya.sample.exceptionhandling.IndexOutOfBound;
-import Dhivya.sample.impls.TaggedInterface;
-import Dhivya.sample.singletone.SingletoneExample;
-import sangamesh.exceptionhandling.mainexception;
+import Dhivya.sample.collections.DifferentMethodsOfArraylist;
 
 public class MainAplication {
     public static void main(String[] args) {
@@ -59,8 +54,43 @@ public class MainAplication {
             System.out.println("Catch");
             System.out.println(e.getMessage());
         }*/
-//Array Index Out of Bound*************************************
-        ArrayIndex arrayIndex=new ArrayIndex();
-        arrayIndex.getArray();
+//Array Index Out of Bound**************************************************
+        /*ArrayIndex arrayIndex=new ArrayIndex();
+        arrayIndex.getArray();*/
+
+//list
+       /* GamesList gamesList=new GamesList();
+        List<GamesList>list=new ArrayList();
+        GamesList gamesList1=new GamesList();
+        gamesList1.setGamename("Throw Ball");
+        gamesList1.setNo(1);
+        GamesList gamesList2=new GamesList();
+        gamesList2.setGamename("Kabbadi");
+        gamesList2.setNo(2);
+        GamesList gamesList3=new GamesList();
+        gamesList3.setGamename("Volly Ball");
+        gamesList3.setNo(3);
+        list.add(gamesList1);
+        list.add(gamesList2);
+        list.add(gamesList3);
+        for (GamesList ga: list)
+        {
+            System.out.println("game name " + ga.getGamename());
+            System.out.println("game no " + ga.getNo());
+            System.out.println("**************************************");
+         }
+*/
+
+
+//finding duplicate name and how many times it repeated
+
+       /* DuplicateList duplicateList=new DuplicateList();
+        duplicateList.testlist();
+*/
+
+
+//different methods of array list
+        DifferentMethodsOfArraylist differentMethodsOfArraylist=new DifferentMethodsOfArraylist();
+        differentMethodsOfArraylist.methodsofarraylist();
     }
 }
