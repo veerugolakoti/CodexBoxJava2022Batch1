@@ -1,4 +1,4 @@
-package JavaTraining.javaassessment;
+package ramdurgaprasad.sample.javaassessment;
 import java.util.*;
 public class MainOperations{
     public static void main(String[] args) {

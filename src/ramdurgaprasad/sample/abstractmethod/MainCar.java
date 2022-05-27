@@ -1,4 +1,4 @@
-package JavaTraining.abstractmethod;
+package ramdurgaprasad.sample.abstractmethod;
 
 public class MainCar {
     public static void main(String[] args) {

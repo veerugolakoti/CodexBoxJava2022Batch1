@@ -1,4 +1,4 @@
-package JavaTraining.arrays;
+package ramdurgaprasad.sample.arrays;
 
 public class ArrayApplication {
     public static void main(String[] args) {int[] age={24,4,4,12,1,2} ;

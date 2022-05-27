@@ -1,4 +1,4 @@
-package JavaTraining.javaassessment;
+package ramdurgaprasad.sample.javaassessment;
 
 public class AlphabetChecking {
     public static void main(String[] args) {

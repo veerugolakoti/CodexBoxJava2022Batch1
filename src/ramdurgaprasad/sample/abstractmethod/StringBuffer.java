@@ -1,4 +1,4 @@
-package JavaTraining.abstractmethod;
+package ramdurgaprasad.sample.abstractmethod;
 
 public class StringBuffer {
     public static void main(String[] args) {

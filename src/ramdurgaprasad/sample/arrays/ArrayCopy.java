@@ -1,4 +1,4 @@
-package JavaTraining.arrays;
+package ramdurgaprasad.sample.arrays;
 
 public class ArrayCopy {
     public static void main(String[] args) {

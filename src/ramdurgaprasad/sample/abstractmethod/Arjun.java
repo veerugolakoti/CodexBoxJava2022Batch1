@@ -1,4 +1,4 @@
-package JavaTraining.abstractmethod;
+package ramdurgaprasad.sample.abstractmethod;
 
 public class Arjun extends SachinTendulkar {
     private String name;

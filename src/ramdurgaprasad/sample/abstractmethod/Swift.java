@@ -1,4 +1,4 @@
-package JavaTraining.abstractmethod;
+package ramdurgaprasad.sample.abstractmethod;
 
 public class Swift extends Car {
     public int getSpeed() {

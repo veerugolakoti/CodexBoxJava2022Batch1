@@ -1,4 +1,4 @@
-package JavaTraining.fibonacci;
+package ramdurgaprasad.sample.fibonacci;
 
 public class Fibanocci {
     public static void main(String[] args) {

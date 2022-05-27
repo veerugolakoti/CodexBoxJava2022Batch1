@@ -1,4 +1,4 @@
-package JavaTraining.operators;
+package ramdurgaprasad.sample.operators;
 
 public class Relational {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaTraining.javaassessment;
+package ramdurgaprasad.sample.javaassessment;
 
 public class FiveTable {
     public static void main(String[] args) {

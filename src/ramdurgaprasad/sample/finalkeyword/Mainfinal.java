@@ -1,4 +1,4 @@
-package JavaTraining.finalkeyword;
+package ramdurgaprasad.sample.finalkeyword;
 
 public class Mainfinal {
     public static void main(String[] args) {

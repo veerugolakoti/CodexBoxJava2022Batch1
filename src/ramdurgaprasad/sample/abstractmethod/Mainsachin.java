@@ -1,4 +1,4 @@
-package JavaTraining.abstractmethod;
+package ramdurgaprasad.sample.abstractmethod;
 
 public class Mainsachin {
     public static void main(String[] args) {

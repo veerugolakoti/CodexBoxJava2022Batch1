@@ -1,4 +1,4 @@
-package JavaTraining.dataflow;
+package ramdurgaprasad.sample.dataflow;
 
 public class SwitchCase {
     public static void main(String[] args) {

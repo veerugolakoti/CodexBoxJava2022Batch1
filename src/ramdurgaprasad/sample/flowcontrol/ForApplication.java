@@ -1,4 +1,4 @@
-package JavaTraining.flowcontrol;
+package ramdurgaprasad.sample.flowcontrol;
 
 public class ForApplication {
     public static void main(String[] args) {

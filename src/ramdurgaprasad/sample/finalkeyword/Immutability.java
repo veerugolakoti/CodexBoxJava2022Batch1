@@ -1,4 +1,4 @@
-package JavaTraining.finalkeyword;
+package ramdurgaprasad.sample.finalkeyword;
 
 public final class Immutability {
    private final String crickter;

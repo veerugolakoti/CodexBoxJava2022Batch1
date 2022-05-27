@@ -1,4 +1,4 @@
-package JavaTraining.scannerclass;
+package ramdurgaprasad.sample.scannerclass;
 
 import java.util.Scanner;
 
