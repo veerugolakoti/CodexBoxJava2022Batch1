@@ -1,5 +1,6 @@
 package rajat.sample.main;
 
+import rajat.sample.collection.ApplyMethodsOnArrayList;
 import rajat.sample.collection.ArrayListClass;
 import rajat.sample.collection.FindDuplicatesInList;
 
@@ -418,10 +419,13 @@ public class MainClassApplication {
     /*    System.out.println("=====CollectionFrameWork======");
         ArrayListClass arrayListClass = new ArrayListClass();
         arrayListClass.getEmpolyeeDetail();*/
-
+/*
         System.out.println("==========Find Duplicate list===========");
         FindDuplicatesInList findDuplicatesInList = new FindDuplicatesInList();
-        findDuplicatesInList.findDuplicates();
+        findDuplicatesInList.findDuplicates();*/
+        System.out.println("========================");
+        ApplyMethodsOnArrayList arrayList = new ApplyMethodsOnArrayList();
+        arrayList.tryingDifferentMethods();
 
     }
 }

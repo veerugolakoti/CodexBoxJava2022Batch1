@@ -8,13 +8,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="Initial Commit for java 2022 batch1 employees">
+    <list default="true" id="22e574e4-247e-4179-9023-2b058b2b06b2" name="Changes" comment="using ArrayList find Duplicates">
+      <change afterPath="$PROJECT_DIR$/src/rajat/sample/collection/ApplyMethodsOnArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rajat/sample/collection/ApplyMethodsOnLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodexBoxJava2022Batch1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodexBoxJava2022Batch1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rajat/sample/collection/FindDuplicatesInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rajat/sample/collection/FindDuplicatesInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rajat/sample/main/MainClassApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rajat/sample/main/MainClassApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +67,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/CodexBoxJava2022Batch1/src/sangamesh/Assesment2&quot;
@@ -66,6 +82,59 @@
       <recent name="D:\CodexBoxJava2022Batch1\src\sangamesh" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.MainClassApplication">
+    <configuration name="MainClassApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rajat.sample.main.MainClassApplication" />
+      <module name="CodexBoxJava2022Batch1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rajat.sample.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodexBoxJava2022Batch1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rajat.sample.junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rajat.sample.junittest" />
+      <option name="MAIN_CLASS_NAME" value="rajat.sample.junittest.TestCases" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCases.getSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodexBoxJava2022Batch1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rajat.sample.junittest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rajat.sample.junittest" />
+      <option name="MAIN_CLASS_NAME" value="rajat.sample.junittest.TestCases" />
+      <option name="METHOD_NAME" value="getSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClassApplication" />
+        <item itemvalue="JUnit.TestCases" />
+        <item itemvalue="JUnit.TestCases.getSum" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,6 +144,28 @@
       <option name="presentableId" value="Default" />
       <updated>1652872537575</updated>
     </task>
+    <task id="LOCAL-00001" summary="ArrayList and unit test">
+      <created>1653483620382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653483620382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="using ArrayList find Duplicates">
+      <created>1653570188539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653570188539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="using ArrayList find Duplicates">
+      <created>1653571079206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653571079206</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit for java 2022 batch1 employees" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit for java 2022 batch1 employees" />
+    <MESSAGE value="ArrayList and unit test" />
+    <MESSAGE value="using ArrayList find Duplicates" />
+    <option name="LAST_COMMIT_MESSAGE" value="using ArrayList find Duplicates" />
   </component>
 </project>
