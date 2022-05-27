@@ -8,9 +8,11 @@ public class DuplicateExample {
     public void duplicate() {
         List<String> list = new ArrayList<>();
         list.add("rajat");
+        list.add("renuka");
         list.add("Abhilash");
         list.add("Junaid");
         list.add("vidya");
+        list.add("teja");
         list.add("rajat");
         list.add("ravali");
         list.add("renuka");
@@ -19,8 +21,12 @@ public class DuplicateExample {
         list.add("vidya");
         list.add("rajat");
         list.add("rajat");
+        list.add("Abhilash");
+        list.add("renuka");
+        list.add("teja");
+        list.add("teja");
 
-        int count1 = 1;
+        int count1 = 0;
         List<Integer> listCount = new ArrayList<>();
         List<String> duplicateName = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
@@ -30,17 +36,17 @@ public class DuplicateExample {
                         duplicateName.add(list.get(i));
                     }
                     count1++;
-                    if (!listCount.contains(count1)) {
+                   // if (!listCount.contains(count1)) {
                         listCount.add( Collections.frequency(list, list.get(i)));
                         break;
-                    }
+                   // }
                 }
             }
         }
         System.out.println(listCount);
         System.out.println(duplicateName);
         for(int k = 0;k< duplicateName.size();k++) {
-            System.out.println("duplicate names are : " + duplicateName.get(k) + "number of reputations respectively :" + listCount.get(k) + " times.");
+            System.out.println("duplicate names are : " + duplicateName.get(k) + " number of reputations respectively :" + listCount.get(k) + " times.");
         }
     }
 }

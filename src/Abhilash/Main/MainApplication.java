@@ -68,9 +68,9 @@ public class MainApplication {
         FirstFile firstFile = new FirstFile();
         System.out.println(firstFile.getFile());
 
-//        System.out.println("\"comparison\"");
-//        Comparison comparison = new Comparison();
-//        comparison.comparison();
+        System.out.println("\"comparison\"");
+        Comparison comparison = new Comparison();
+        comparison.comparison();
         // collection examples package
         Groceries groceries = new Groceries();
         Groceries groceries1 = new Groceries();
@@ -96,5 +96,7 @@ public class MainApplication {
         }
         DuplicateExample duplicateExample = new DuplicateExample();
         duplicateExample.duplicate();
+
+
     }
 }
