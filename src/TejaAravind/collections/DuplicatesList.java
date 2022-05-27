@@ -56,9 +56,6 @@ public class DuplicatesList {
             for (int j = i + 1; j < listString.size(); j++) {
                 if (list.get(i).equalsIgnoreCase(list.get(j))) {
                     count1++;
-
-
-
                 }
 
 
