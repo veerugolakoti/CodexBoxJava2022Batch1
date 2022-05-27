@@ -1,5 +1,6 @@
 package Dinesh202270.main;
 
+import Dinesh202270.Dublicate.StringArray;
 import Dinesh202270.abstraction.NewClass;
 import Dinesh202270.collections.Dublicate;
 import Dinesh202270.exceptions.CustomerClass;
@@ -51,11 +52,17 @@ public class MainMethod {
             System.out.println(firstException.name());
 
 */
+/*
 
         Dublicate dublicate= new Dublicate();
 
         dublicate.dublicate1();
+*/
 
+
+        StringArray stringArray=new StringArray();
+
+        stringArray.dublicate2();
 
     }
 

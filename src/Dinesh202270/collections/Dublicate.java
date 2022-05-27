@@ -12,7 +12,7 @@ public class Dublicate {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println("enter value : " + (i + 1) + "  : ");
             list.add(sc.nextInt());
         }
