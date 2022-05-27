@@ -2,6 +2,7 @@ package Swathi.MainMethod;
 
 import Ravaliproject.interfaces.Employee;
 import Swathi.Abstraction.MyClass2;
+import Swathi.Frameworks.TestCalculator;
 import Swathi.Interface.InterfaceClass;
 import Swathi.MarkerInterfaceEx.Student;
 import Swathi.collections.EmployeeDetails;
@@ -45,7 +46,7 @@ public class MainApplication {
         //System.out.println("======interfaces");
 
 
-        List<EmployeeDetails> List =new ArrayList<>();
+      /*  List<EmployeeDetails> List =new ArrayList<>();
         EmployeeDetails zcd= new EmployeeDetails();
         zcd.setName("swathi");
         zcd.setId(23);
@@ -77,4 +78,6 @@ public class MainApplication {
 
             }
         }
+*/
 
+    }}
