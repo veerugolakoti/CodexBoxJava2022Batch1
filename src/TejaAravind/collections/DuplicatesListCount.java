@@ -16,10 +16,9 @@ public class DuplicatesListCount {
 
             for (int j = i + 1; j < list.size(); j++) {
                 if (list.get(i).equalsIgnoreCase(list.get(j))) {
-                    if (listString.contains(list.get(i))) {
-                        break;
-                    } else {
+                    if (!listString.contains(list.get(i))) {
                         listString.add(list.get(i));
+                        break;
                     }
                 }
             }
@@ -30,11 +29,11 @@ public class DuplicatesListCount {
                 }
             }
 
-            if (count > 0) {
+            if (count >= 0) {
                 listCount.add(count);
             }
         }
-//        System.out.println(listString);
+        System.out.println(listString);
 //        System.out.println(listCount);
 
 
