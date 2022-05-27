@@ -1,12 +1,6 @@
 package Dinesh202270.main;
 
-import Dinesh202270.Dublicate.StringArray;
-import Dinesh202270.abstraction.NewClass;
-import Dinesh202270.collections.Dublicate;
-import Dinesh202270.exceptions.CustomerClass;
-import Dinesh202270.exceptions.Example;
-import Dinesh202270.exceptions.FirstException;
-import Dinesh202270.taggedinterface.CheckedException;
+import Dinesh202270.duplicate.DuplicateStringsExample;
 
 public class MainMethod {
     public static void main(String[] args) {
@@ -60,9 +54,9 @@ public class MainMethod {
 */
 
 
-        StringArray stringArray=new StringArray();
+        DuplicateStringsExample duplicateStringsExample =new DuplicateStringsExample();
 
-        stringArray.dublicate2();
+        //duplicateStringsExample.findDuplicates();
 
     }
 

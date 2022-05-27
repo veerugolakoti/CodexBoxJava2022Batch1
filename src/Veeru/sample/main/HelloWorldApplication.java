@@ -1,19 +1,12 @@
 package Veeru.sample.main;
 
-import Abhilash.exceptionhandling.Number;
-import Veeru.sample.abstraction.EmployeesAbstraction;
-import Veeru.sample.employee.CodexBoxEmployee;
-import Veeru.sample.employee.GoogleEmployee;
-import Veeru.sample.impls.TaggedInterfaceExample;
 import rajat.sample.employee.Employee;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 
 public class HelloWorldApplication {
-    protected TaggedInterfaceExample taggedInterfaceExample;
     public static void main(String[] args) {
        /* try {
             String str = "123";

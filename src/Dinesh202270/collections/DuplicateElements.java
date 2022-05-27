@@ -2,13 +2,12 @@ package Dinesh202270.collections;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class Dublicate {
+public class DuplicateElements {
 
-    public void dublicate1() {
+    public void findDuplicate() {
         Scanner sc = new Scanner(System.in);
         List<Integer> list = new ArrayList();
 
@@ -22,11 +21,11 @@ public class Dublicate {
 
 
         for (int i = 0; i < list.size(); i++) {
-            int dub = 0;
+            int dup = 0;
             for (int j = i + 1; j < list.size(); j++) {        //1 1 1 2 2
                 if (list.get(i) == list.get(j)) {
                     count++;
-                    dub = list.get(j);
+                    dup = list.get(j);
 
                     list.set(j,0);
                 }
@@ -34,7 +33,7 @@ public class Dublicate {
             if (count > 0  )
             {
                 if(list.get(i)!=0) {
-                    System.out.println(dub + " is repeating " + count + " times");
+                    System.out.println(dup + " is repeating " + count + " times");
                 }
             }
             count = 0;
