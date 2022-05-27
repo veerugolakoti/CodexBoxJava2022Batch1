@@ -4,18 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DuplicatesListCount {
-    public static void DuplicateCount(){
-        List<String> list = new ArrayList<>();
-
-        list.add("teja");
-        list.add("kumar");
-        list.add("teja");
-        list.add("siva");
-        list.add("siva");
-        list.add("kumar");
-        list.add("kumar");
-        list.add("siva");
-        list.add("teja");
+    public static void duplicateCount(List<String> list){
 
         System.out.println(list);
 
