@@ -1,4 +1,4 @@
-package Dinesh202270.collections;
+package Dinesh202270.duplicate;
 
 
 import java.util.ArrayList;
