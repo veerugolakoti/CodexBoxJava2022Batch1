@@ -1,6 +1,6 @@
 package mounika.sample.mianmethod;
 
-public class MainApplication {
+public class Trycatch {
 
     public static void main(String[] args) {
 
