@@ -5,6 +5,7 @@ import Swathi.Abstraction.MyClass2;
 import Swathi.Frameworks.TestCalculator;
 import Swathi.Interface.InterfaceClass;
 import Swathi.MarkerInterfaceEx.Student;
+import Swathi.collections.DifferentMethodsOfArraylist;
 import Swathi.collections.EmployeeDetails;
 
 import java.util.ArrayList;
@@ -79,5 +80,6 @@ public class MainApplication {
             }
         }
 */
-
+        DifferentMethodsOfArraylist method1=new DifferentMethodsOfArraylist();
+        method1.method();
     }}
