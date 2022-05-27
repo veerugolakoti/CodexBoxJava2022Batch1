@@ -7,7 +7,7 @@ public class UnitExample {
     @Test
     public void checking() {
         JUnitexample jUnitexample = new JUnitexample();
-        Assert.assertEquals(22,jUnitexample.JUnitexample(10,12));
+     //a   Assert.assertEquals(22,jUnitexample.JUnitexample(10,12));
 
         }
     }

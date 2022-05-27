@@ -1,15 +1,6 @@
 package vidya.MainApplication;
 
-import Shiva.Encapsulation.Student;
-import vidya.Exception.Exception.CompilerException;
-import vidya.Exception.Exception.EmployeeR;
-import vidya.Exception.Exception.VidyaChecked;
-import vidya.Exception.Exception.VidyaException;
-import vidya.frameworks.Employee;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
+import vidya.frameworks.TestMethod;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,22 +30,10 @@ public class Main {
 
 vidyaChecked.getMessage();*/
 
-        Employee employee = new Employee();
+        TestMethod employee = new TestMethod();
         employee.Student();
-
-
-
-
-
-
-        }
-
-
-
-
-
     }
-
+}
 
 
 
