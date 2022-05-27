@@ -1,4 +1,4 @@
-package Dinesh202270;
+package Dinesh202270.abstraction;
 
 public interface AbstractionByInterface {
 
@@ -10,18 +10,8 @@ public interface AbstractionByInterface {
 
 
 
-    interface Abstraction extends AbstractionByInterface
-    {
-        @Override
-        boolean method2();
 
-        @Override
-        void method3();
-        void method4();
-        void method5();
-    }
-
-   abstract class OldClass implements AbstractionByInterface,Abstraction
+   abstract class OldClass implements AbstractionByInterface, Abstraction
     {
         @Override
         public void Method1() {
@@ -52,10 +42,6 @@ public interface AbstractionByInterface {
         }
     }
 
-class NewClass extends OldClass
-{
-
-}
 
 
 

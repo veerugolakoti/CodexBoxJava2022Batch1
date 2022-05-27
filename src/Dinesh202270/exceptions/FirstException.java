@@ -5,14 +5,8 @@ import java.util.Scanner;
 public class FirstException {
     Scanner sc = new Scanner(System.in);
 
-    public static void main(String[] args) {
 
-      FirstException firstException= new FirstException();
-        System.out.println(firstException.division());
-       System.out.println(firstException.name());
-    }
-
-int division()
+public int division()
 {
     System.out.println("enter two numbers ");
     int a= sc.nextInt();
@@ -32,7 +26,7 @@ int division()
 }
 
 
-String name()
+public String name()
 {
         String s=null;
 
