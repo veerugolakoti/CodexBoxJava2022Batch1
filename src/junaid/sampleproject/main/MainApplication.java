@@ -3,6 +3,7 @@ package junaid.sampleproject.main;
 import junaid.sampleproject.collections.ArrayListExamples;
 import junaid.sampleproject.collections.Cars;
 import junaid.sampleproject.collections.FindDuplicatesValues;
+import junaid.sampleproject.collections.MethodOnArrayList;
 import junaid.sampleproject.taggedinterfaces.TaggedInterfaces;
 
 import java.util.ArrayList;
@@ -91,11 +92,18 @@ public class MainApplication
 //
 //        findDuplicatesValues.findDupValues();
 
-        System.out.println("=================Find ArrayList Examples================");
+//        System.out.println("=================Find ArrayList Examples================");
+//
+//        ArrayListExamples arrayListExamples = new ArrayListExamples();
+//
+//        arrayListExamples.testMyArray();
 
-        ArrayListExamples arrayListExamples = new ArrayListExamples();
 
-        arrayListExamples.testMyArray();
+        System.out.println("===================Trying Different Methods in ArrayList==========================");
+
+        MethodOnArrayList methodOnArrayList = new MethodOnArrayList();
+
+        methodOnArrayList.tryUsingDifferentMethods();
 
 
     }
