@@ -2,7 +2,7 @@ package smrutiranjan.practice.excedemo.trycatchex;
 
 public class NestedTryCatch {
 
-        void nestedTryCatch () {
+        public void nestedTryCatch() {
         try {
             try {
                 int i = 30 / 0;

@@ -13,7 +13,7 @@ public class CheckedException {
 
  //   }
 
-    void checkExce() throws FileNotFoundException {
+    public void checkExce() throws FileNotFoundException {
         try{
 
             FileReader fr = new FileReader("ja.txt");

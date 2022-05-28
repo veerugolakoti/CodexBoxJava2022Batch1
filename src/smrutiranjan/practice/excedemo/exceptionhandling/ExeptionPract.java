@@ -34,10 +34,10 @@ public class ExeptionPract extends Throwable {
 
 
 
-        ExeptionPract(String s) {
+        public ExeptionPract(String s) {
 
         }
-        void exception(){
+        public void exception(){
 
         }
     }

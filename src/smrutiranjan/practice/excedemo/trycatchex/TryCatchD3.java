@@ -1,7 +1,7 @@
 package smrutiranjan.practice.excedemo.trycatchex;
 
 public class TryCatchD3 {
-    void tryCatchd3(){
+    public void tryCatchd3(){
         try{
             String s= null;
             System.out.println(s.length());
