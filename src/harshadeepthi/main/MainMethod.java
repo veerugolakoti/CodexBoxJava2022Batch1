@@ -1,14 +1,13 @@
 package harshadeepthi.main;
 
-import harshadeepthi.Demoprogram.Student;
-import harshadeepthi.checkedexception.MahatmaStudent;
-import harshadeepthi.sample.Rectangle;
+
+import harshadeepthi.Linkedlistexample;
 
 
 public class MainMethod {                         //Demo program cloneable
     public static void main(String[] args) {
 
-        Student s1 = new Student();
+        /*Student s1 = new Student();
         Student s2 = null;
         try {
             s2 = (Student) s1.getCloneMethod();
@@ -49,6 +48,20 @@ public class MainMethod {                         //Demo program cloneable
             mahatmaclonedstudent.setStudentName("SAIKEERTHI");
             mahatmaclonedstudent.setStudentaddress("AMEERPET");
         }
+*/
+/**/
+
+  // ArrayListExample arrayListExample=new ArrayListExample();
+      //  arrayListExample.testarraylist();
+
+   // ArrayList23 arrayList=new ArrayList23();
+     //arrayList.testMyarraylist();
+
+        Linkedlistexample linkedlist=new Linkedlistexample();
+        linkedlist.testMyLinkedlist();
+
+
+
 
     }
 

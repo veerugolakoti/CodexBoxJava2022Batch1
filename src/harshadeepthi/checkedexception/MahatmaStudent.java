@@ -1,6 +1,6 @@
 package harshadeepthi.checkedexception;
 
-public  class MahatmaStudent extends StudentAbstraction {
+public  class MahatmaStudent extends Student {
     public String percentage(){
         return "80";
     }
