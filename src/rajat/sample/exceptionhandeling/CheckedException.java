@@ -1,7 +1,7 @@
 package rajat.sample.exceptionhandeling;
 
 public class CheckedException{
-    private String name;
+    private String name ;
     private  Long phNo;
     public String getName() {
         return name;

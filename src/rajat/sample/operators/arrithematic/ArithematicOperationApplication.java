@@ -10,6 +10,9 @@ public class ArithematicOperationApplication {
     public int mul=a*b;
     public float div=(float) a/b;
     public float mod=(float) a%b;
+   public  int sum(int a, int b){
+        return a+b;
+    }
     Scanner s= new Scanner(System.in);
     public void operation(){
         System.out.println("Addition,Subtraction,Multiplication,Division,Modulo:: choose one of the operation");
