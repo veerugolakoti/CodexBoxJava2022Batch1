@@ -1,4 +1,4 @@
-package vidya.Inheritance2;
+package vidya.Inheritance.Inheritance2;
 
 public class Dog extends Animal{
     @Override
